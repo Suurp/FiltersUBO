@@ -1,0 +1,11 @@
+!ELITETORRENT - INFOMANIAKOS
+enlace-protegido.com,acortame-esto.com##+js(rpnt, script, "var ms_ads = 'si';", 'var ms_ads="si";(function(){var a=location.href.split("#");if(a&&a[1]){a=a[1];for(var c=0;10>c;c++)try{a=atob(a)}catch(f){var d=a.replace(/[a-zA-Z]/g,function(b){return String.fromCharCode(("Z">=b?90:122)>=(b=b.charCodeAt(0)+13)?b:b-26)});try{new URL(d);var e=!0}catch(b){e=!1}if(e){window.location=d;break}}}})();')
+
+!OII.LA
+oii.la##+js(set-attr, form[method="post"]:has([name="url"]), action)
+
+!CONDORSOFT
+@@||www3.doubleclick.net^$domain=condorsoft.co|dogal.lat
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=condorsoft.co|dogal.lat
+condorsoft.co,dogal.lat##+js(nano-sib, i, , 0.15)
+condorsoft.co,dogal.lat##+js(nano-stb, , , 0.15)
