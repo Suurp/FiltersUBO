@@ -1,11 +1,158 @@
 !ELITETORRENT - INFOMANIAKOS
 enlace-protegido.com,acortame-esto.com##+js(rpnt, script, "var ms_ads = 'si';", 'var ms_ads="si";(function(){var a=location.href.split("#");if(a&&a[1]){a=a[1];for(var c=0;10>c;c++)try{a=atob(a)}catch(f){var d=a.replace(/[a-zA-Z]/g,function(b){return String.fromCharCode(("Z">=b?90:122)>=(b=b.charCodeAt(0)+13)?b:b-26)});try{new URL(d);var e=!0}catch(b){e=!1}if(e){window.location=d;break}}}})();')
 
+!PELISENHD
+tulink.org##+js(aeld, keydown)
+tulink.org##+js(aopr, document.onkeydown)
+tulink.org##+js(aopr, document.oncontextmenu)
+tulink.org##+js(aopr, document.onmousedown)
+
+!FILEMOON VIDEOPLAYER
+fdvzg.world##+js(nowoif, getLink)
+
+!MARU VIDEOPLAYER
+mail.ru##+js(nowoif, videoplayer)
+
 !OII.LA
 oii.la##+js(set-attr, form[method="post"]:has([name="url"]), action)
+
+!KUT.LI
+kut.li##+js(set, blurred, false)
+kut.li##+js(aopr, app_vars.please_disable_adblock)
+kut.li##a[href][target="_blank"], .blog-item, .text-left, footer
+kut.li##+js(nowoif)
+||rawcdn.githack.com$domain=kut.li
 
 !CONDORSOFT
 @@||www3.doubleclick.net^$domain=condorsoft.co|dogal.lat
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=condorsoft.co|dogal.lat
 condorsoft.co,dogal.lat##+js(nano-sib, i, , 0.15)
 condorsoft.co,dogal.lat##+js(nano-stb, , , 0.15)
+
+!LINKSFLAME
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12608133
+lkfms.pro##a[href][target="_blank"], .text-left
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com###checkclick, [src*="newassets.hcaptcha.com/captcha/"]:others()
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##.h-captcha:remove-class(is-hidden)
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##+js(set, document.hasFocus, trueFunc)
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##+js(set, assDidCkeDone, true)
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##+js(set, verifiedCheckDone, true)
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##+js(rpnt, script, = 35, = 21)
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##+js(rpnt, script, /= 15|= 20|= 18|= 16/, = 8)
+ngebike.com,megahosting.us,2wheelslife.com,finance240.com##+js(rmnt, script, alreadyLoaded88j)
+||gravatar.com$domain=finance240.com|2wheelslife.com|megahosting.us|ngebike.com
+||revbid.net$domain=finance240.com|2wheelslife.com|megahosting.us|ngebike.com
+||clickiocmp.com$domain=finance240.com|2wheelslife.com|megahosting.us|ngebike.com
+@@||googleads.g.doubleclick.net/pagead/interaction/$xhr,domain=finance240.com|2wheelslife.com|megahosting.us|ngebike.com
+
+!GET-TO.LINK
+get-to.link##.rev-container, #topbnr
+get-to.link##+js(aeld, DOMContentLoaded, /overlay|hover-message/)
+
+!FLY.INC - 7MB.IO
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12437078
+khalarkobor.com,4kphotoediting.com##+js(acs, onload, handleFailure)
+khalarkobor.com,4kphotoediting.com##+js(rpnt, script, "'IFRAME'", "'BODY'")
+khalarkobor.com,4kphotoediting.com##+js(rpnt, script, !document.hasFocus(), true)
+khalarkobor.com,4kphotoediting.com##+js(rpnt, script, document.hasFocus() == false, true)
+khalarkobor.com,4kphotoediting.com##+js(set, document.hasFocus, trueFunc)
+khalarkobor.com,4kphotoediting.com##+js(rmnt, script, getStoredTabSwitchTime)
+khalarkobor.com,4kphotoediting.com###click, #redirect-link, [class^="btn-"], #captcha-container, #switchCaptcha, [src*="/recaptcha/"]:others()
+
+!BITCOTASK
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12618435
+@@||bitcotasks.com/captcha2/*
+bitcotasks.com#@#+js(nostif, alert)
+bitcotasks.com#@#+js(nostif, offsetWidth)
+bitcotasks.com##+js(nostif, window.location.replace, 1200)
+bitcotasks.com##+js(rpnt, script, /window\.open\(['"]([^'"]+)['"]\);/gm, true, condition, myWindow)
+bitcotasks.com##+js(rpnt, script, myWindow.closed == true || window_focus, false, condition, myWindow)
+bitcotasks.com##+js(set, window_focus, true)
+bitcotasks.com##+js(set, window_paused, false)
+bitcotasks.com###BitcoAdContainer, #blog
+bitcotasks.com##+js(nano-stb, showadbar, 5000)
+bitcotasks.com##+js(nano-stb, show_captcha, 1000)
+
+!EARNOW - SHORTINO - SHORTANO
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12440365
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(no-fetch-if, revbid.js)
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(nano-sib, , 2000, 0.02)
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(nano-stb, , *, 0.02)
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##div:has(form):style(display: block !important)
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(set, document.hidden, true)
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(trusted-set-attr, html, class, placed-ad)
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##.container-fluid .row, [id*="revbid-big-skyscraper"], .sads, .cacat, .floating-banner, #fl-ad, span:has(> a[href="https://t.me/earnowonline"])
+wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(spoof-css, .row, display, block)
+||isproxy.eu$domain=wanderjourney.net|fitbodygenius.com|origamiarthub.com|cryptowidgets.net
+
+
+!ADLINK
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12555848
+maqal360.com,diudemy.com##.clock-col, .alert, #append:others()
+maqal360.com,diudemy.com##+js(acs, document.onkeydown)
+maqal360.com,diudemy.com##+js(aeld, contextmenu)
+maqal360.com,diudemy.com##+js(rpnt, script, startCountdown(20);, startCountdown(0);)
+maqal360.com,diudemy.com##+js(rpnt, script, num_page != 3 && num_page != 6, true)
+
+!BITAD
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12456971
+writeprofit.org,docadvice.eu#@#.adb-top
+writeprofit.org,docadvice.eu##[src*="/recaptcha/"], #click, h3, #wpsafelinkhuman, #wpsafelink-countdown, #wpsafe-generate, #wpsafegenerate, [id*="plan"]:others()
+writeprofit.org,docadvice.eu##[id*="plan"]:style(display: block !important)
+writeprofit.org,docadvice.eu##+js(rpnt, script, "'IFRAME'", "'BODY'")
+
+!BITAD OTHER VERSION
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12496867
+infonerd.org##+js(rpnt, script, "'IFRAME'", "'BODY'")
+infonerd.org##+js(acs, detectDevTools)
+infonerd.org##+js(set, document.hasFocus, trueFunc)
+infonerd.org###countdown, #redirectButton, #click:others()
+infonerd.org##+js(aeld, /^(?:contextmenu|keydown)$/)
+infonerd.org##+js(set, adClicked, true)
+||isproxy.eu/adb/jquery*.js$domain=infonerd.org
+
+!VMKEO
+equickle.com,ecryptly.com##+js(acs, document.onkeydown)
+equickle.com,ecryptly.com##+js(aeld, contextmenu)
+equickle.com,ecryptly.com###rtg, p[id*="Step"], [src*="/recaptcha/"]:others()
+equickle.com,ecryptly.com###rtg-snp2, #rtg-snp21:style(display: block !important)
+vmkeo.com###popup, #frame
+vmkeo.com##+js(nowoif, Popup_Window)
+
+!MONOSCHINOS
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12654838
+monoschinos.club###wpsafe-link, #link:style(display: block !important;)
+monoschinos.club###wpsafe-link, #link:others()
+
+!SHORTCLICK
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12666195
+shortclick.xyz###frame, #cookie-pop
+coinspare.xyz##+js(rpnt, script, element.contains(document.activeElement) && !timeCounted, true)
+! coinspare.xyz##+js(trusted-set-attr, html, class, placed-ad)
+coinspare.xyz##+js(set, document.hidden, true)
+coinspare.xyz##.container-fluid .row, [id*="revbid-big-skyscraper"], .sads, .cacat, .floating-banner, #fl-ad, span:has(> a[href="https://t.me/earnowonline"])
+coinspare.xyz##+js(no-xhr-if, rollercoin.com)
+||rollercoin.com^$image,3p,redirect-rule=32x32.png,domain=coinspare.xyz
+||isproxy.eu$domain=coinspare.xyz
+
+
+!MODIJIURL
+modijiurl.com##body > center > div
+modijiurl.com##.navbar-toggler
+modijiurl.com##+js(rpnt, script, /5000|100/gm, 10, condition, set)
+modijiurl.com##.animated.text-center, [href*="t.me/modijiurl"], .captcha-box > p, .ad-container, [src*="blogger"], [src*=".png"]
+grtjobs.in,kajernews.com,vyaapaarguru.in##+js(trusted-set, document.visibilityState, '{"value": "visible"}')
+grtjobs.in,kajernews.com,vyaapaarguru.in##+js(nostif, checkAds)
+grtjobs.in,kajernews.com,vyaapaarguru.in##+js(nano-sib, /.?/, *, 0.002)
+grtjobs.in,kajernews.com,vyaapaarguru.in##+js(nano-stb, /.?/, *, 0.002)
+grtjobs.in,kajernews.com,vyaapaarguru.in##[onclick*="handleContinueClick"], #continue-blur, #please-wait, .scroll2, .step:others()
+grtjobs.in,kajernews.com,vyaapaarguru.in##[onclick*="handleContinueClick"], #continue-blur:style(display: block !important;)
+
+!SETURL
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12722427
+bgmi32bitapk.in##.step_box:others()
+bgmi32bitapk.in##+js(trusted-click-element, #rtg-snp-btn, , 500)
+bgmi32bitapk.in##+js(trusted-click-element, #rtg-snp21 > .btn, , 500)
+bgmi32bitapk.in###rtg-snp21:remove-class(no_display)
+creditsgoal.com##[id*="Step"], #rtg-snp21:others()
+creditsgoal.com###rtg-snp21:style(display: block !important)
