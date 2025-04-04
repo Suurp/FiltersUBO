@@ -83,8 +83,7 @@ wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguid
 wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(trusted-set-attr, html, class, placed-ad)
 wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##.container-fluid .row, [id*="revbid-big-skyscraper"], .sads, .cacat, .floating-banner, #fl-ad, span:has(> a[href="https://t.me/earnowonline"])
 wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##+js(spoof-css, .row, display, block)
-||isproxy.eu$domain=wanderjourney.net|fitbodygenius.com|origamiarthub.com|cryptowidgets.net
-
+||isproxy.eu$domain=wanderjourney.net|fitbodygenius.com|origamiarthub.com|dailytech-news.eu|petsguide.net|hobbymania.net|constructorspro.com|insurancegold.in|cinemascene.net|tvseriescentral.net|cookinguide.net|carsmania.net|melodyspot.net|webfreetools.net|coinsrise.net|coinstrend.net|funplayarcade.com|gadgetbuzz.net|insurancexguide.com|coinscap.info|coinsvalue.net|giftmagic.net|freeoseocheck.com|cryptowidgets.net
 
 !ADLINK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12555848
@@ -135,8 +134,8 @@ coinspare.xyz##+js(no-xhr-if, rollercoin.com)
 ||rollercoin.com^$image,3p,redirect-rule=32x32.png,domain=coinspare.xyz
 ||isproxy.eu$domain=coinspare.xyz
 
-
 !MODIJIURL
+!https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12587616
 modijiurl.com##body > center > div
 modijiurl.com##.navbar-toggler
 modijiurl.com##+js(rpnt, script, /5000|100/gm, 10, condition, set)
