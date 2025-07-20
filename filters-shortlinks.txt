@@ -158,3 +158,17 @@ bgmi32bitapk.in##+js(trusted-click-element, #rtg-snp21 > .btn, , 500)
 bgmi32bitapk.in###rtg-snp21:remove-class(no_display)
 creditsgoal.com##[id*="Step"], #rtg-snp21:others()
 creditsgoal.com###rtg-snp21:style(display: block !important)
+
+!SHORTHOP
+!https://github.com/uBlockOrigin/uAssets/discussions/27472?sort=new#discussioncomment-12471194
+adwyn.uno##.container-fluid .row
+adwyn.uno##+js(trusted-replace-argument, document.querySelectorAll, 0, json:"body", condition, [id^="google_ads_"])
+adwyn.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .container-fluid .row)
+adwyn.uno##+js(set, document.hidden, true)
+adwyn.uno##+js(spoof-css, '.placed-ad, .row', visibility, visible, display, block)
+adwyn.uno##+js(no-fetch-if, revbid.js)
+adwyn.uno##+js(no-xhr-if, adsbygoogle.js, length:11000)
+adwyn.uno##+js(nano-sib, , *, 0.02)
+adwyn.uno##+js(nano-stb, , *, 0.02)
+||isproxy.eu$domain=adwyn.uno
+||biit.site$domain=adwyn.uno
