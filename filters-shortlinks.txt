@@ -183,3 +183,9 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set, document.activeEl
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, document.hasFocus, falseFunc)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nowoif)
 ||a-ads.com^$frame,redirect-rule=noop.html,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
+
+!VIEFAUCET
+viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
+viefaucet.com##.el-row:has(.wait-container):style(justify-content: center)
+viefaucet.com##.offerwall-widget, .coinsgame, div:has(> #bm-720)
+viefaucet.com##+js(nosiif, this.timerRef, 2000)
