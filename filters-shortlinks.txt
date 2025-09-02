@@ -197,3 +197,14 @@ viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > 
 viefaucet.com##.el-row:has(.wait-container):style(justify-content: center)
 viefaucet.com##.offerwall-widget, .coinsgame, div:has(> #bm-720)
 viefaucet.com##+js(nosiif, this.timerRef, 2000)
+
+!SGTG - HNTG - DNTG
+hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(set, blurred, false)
+hanoitravel.xyz,saigontravel.top,danangtravel.top##.box-main > .blog-item
+hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(aeld, /devtoolschange|scroll/)
+hanoitravel.xyz,saigontravel.top,danangtravel.top##body:remove-attr(/oncontextmenu|style/)
+hanoitravel.xyz,saigontravel.top,danangtravel.top###verify:style(display: block !important)
+hanoitravel.xyz,saigontravel.top,danangtravel.top##.header-main, form[action*="/verify"], #time, p.ttu, #verify:others()
+hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, done == 0, true)
+hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, current >= timer, true)
+hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, var bodyWidth = document.body.clientWidth;, 'var bodyWidth = document.body.clientWidth; document.querySelector("#verify > button").setAttribute("onclick", "check3();"); document.querySelector("form[onkeydown]").setAttribute("onkeydown", "if (event.key === Enter) return check3();");')
