@@ -183,9 +183,10 @@ newsminer.uno,adwyn.uno##+js(nano-stb, , *, 0.02)
 
 !COINCLIX
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-13585108
-coinhub.wiki,vitalityvista.net,geekgrove.net###link_result_footer, #link_result_header, #link_result, #captcha_modal_body, iframe[src*="acceptable.a-ads.com"], img[src*="coinclix.co/favicons"], [src*="newassets.hcaptcha.com/captcha/"], [src*="/recaptcha/"]:others()
+coinhub.wiki,vitalityvista.net,geekgrove.net###linkResFooter, #linkResHeader, #linkResult, #captcha_modal_body, iframe[src*="acceptable.a-ads.com"], img[src*="coinclix.co/favicons"], [src*="newassets.hcaptcha.com/captcha/"], [src*="/recaptcha/"]:others()
+coinhub.wiki,vitalityvista.net,geekgrove.net##.flex-grow-1:style(flex-grow: 0 !important)
 coinhub.wiki,vitalityvista.net,geekgrove.net##iframe[src*="acceptable.a-ads.com"]:style(height: 1px !important)
-coinhub.wiki,vitalityvista.net,geekgrove.net##+js(acs, document.onkeydown, ctrlKey)
+coinhub.wiki,vitalityvista.net,geekgrove.net##+js(aeld, keydown)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nano-stb, *, 5000)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set, document.activeElement, { "value": {"tagName": "IFRAME" }}, runAt, 2)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, document.hasFocus, falseFunc)
