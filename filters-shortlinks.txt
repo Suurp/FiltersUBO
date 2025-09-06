@@ -183,6 +183,9 @@ newsminer.uno,adwyn.uno##+js(nano-stb, , *, 0.02)
 
 !COINCLIX
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-13585108
+coinclix.co##+js(nostif, , 1000)
+coinclix.co##.row:has([id*="ad-tp"]), .card:has([id*="ad-bt"])
+
 coinhub.wiki,vitalityvista.net,geekgrove.net###linkResFooter, #linkResHeader, #linkResult, #captcha_modal_body, iframe[src*="acceptable.a-ads.com"], img[src*="coinclix.co/favicons"], [src*="newassets.hcaptcha.com/captcha/"], [src*="/recaptcha/"]:others()
 coinhub.wiki,vitalityvista.net,geekgrove.net##.flex-grow-1:style(flex-grow: 0 !important)
 coinhub.wiki,vitalityvista.net,geekgrove.net##iframe[src*="acceptable.a-ads.com"]:style(height: 1px !important)
