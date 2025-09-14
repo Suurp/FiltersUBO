@@ -212,3 +212,33 @@ hanoitravel.xyz,saigontravel.top,danangtravel.top##.header-main, form[action*="/
 hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, done == 0, true)
 hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, current >= timer, true)
 hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, var bodyWidth = document.body.clientWidth;, 'var bodyWidth = document.body.clientWidth; document.querySelector("#verify > button").setAttribute("onclick", "check3();"); document.querySelector("form[onkeydown]").setAttribute("onkeydown", "if (event.key === Enter) return check3();");')
+
+!BITCOFAST
+bitcofast.com###btn3:others()
+bitcofast.com###btn3:style(display: block !important)
+||bitcotasks.com/popad*$redirect=popads.js
+
+!FEYORRA
+feyorra.site##[style*="overflow:hidden"]:not(:has(#loginBtnText))
+feyorra.site##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
+feyorra.site##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+feyorra.site##+js(nowoif, , obj)
+@@||cdn.jsdelivr.net/npm/@fingerprintjs
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=feyorra.site
+
+!EARN-TRUMP
+earn-trump.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe)
+earn-trump.com##.text-center.row:has(#ClaimForm):style(display: flex !important; justify-content: center)
+earn-trump.com##+js(noeval-if, /chp_?ad/)
+earn-trump.com##+js(set, document.hasFocus, trueFunc)
+earn-trump.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
+earn-trump.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+earn-trump.com##+js(nowoif, , obj)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-trump.com
+
+!EARN-BONK
+earn-bonk.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe), .text-center:has(> ins), .ads:has(> ins)
+earn-bonk.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
+earn-bonk.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+earn-bonk.com##+js(nowoif, , obj)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-bonk.com
