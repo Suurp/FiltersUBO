@@ -121,12 +121,20 @@ infonerd.org##+js(set, adClicked, true)
 ||isproxy.eu/adb/jquery*.js$domain=infonerd.org
 
 !VMKEO
-equickle.com,ecryptly.com##+js(acs, document.onkeydown)
-equickle.com,ecryptly.com##+js(aeld, contextmenu)
-equickle.com,ecryptly.com###rtg, p[id*="Step"], [src*="/recaptcha/"]:others()
-equickle.com,ecryptly.com###rtg-snp2, #rtg-snp21:style(display: block !important)
+blkeo.com##+js(rpnt, script, ai_block_class_def)
+blkeo.com##span[style*="color:red"], #codexa-snp2, #codexa-snp21:others()
+blkeo.com###codexa-snp2, #codexa-snp21:style(display: block !important)
+blkeo.com##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
+blkeo.com##+js(nosiif, , 500)
+blkeo.com##+js(acs, document.onkeydown)
+blkeo.com##+js(aeld, DOMContentLoaded, antiAdBlockerHandler)
+||unsplash.com^$domain=blkeo.com
+||w.org^$domain=blkeo.com
+||ads93.ru^$domain=blkeo.com
 vmkeo.com###popup, #frame
+vmkeo.com##header:style(margin-bottom: 0px !important)
 vmkeo.com##+js(nowoif, Popup_Window)
+
 
 !MONOSCHINOS
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12654838
@@ -166,20 +174,20 @@ bgmi32bitapk.in###rtg-snp21:remove-class(no_display)
 creditsgoal.com##[id*="Step"], #rtg-snp21:others()
 creditsgoal.com###rtg-snp21:style(display: block !important)
 
-!SHORTHOP
+!SHORTHOP - CRYPTO-RADIO
 !https://github.com/uBlockOrigin/uAssets/discussions/27472?sort=new#discussioncomment-12471194
-newsminer.uno,adwyn.uno##.container-fluid .row
-newsminer.uno,adwyn.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .placed-ad)
-newsminer.uno,adwyn.uno##+js(trusted-replace-argument, document.querySelectorAll, 0, json:"body", condition, .placed-ad)
-newsminer.uno,adwyn.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .container-fluid .row)
-newsminer.uno,adwyn.uno##+js(nano-sib, document.hidden, *, 0.02)
-newsminer.uno,adwyn.uno##+js(set, document.hidden, true, runAt, 3)
-newsminer.uno,adwyn.uno##+js(spoof-css, .row, display, block, visibility, visible)
-newsminer.uno,adwyn.uno##+js(no-fetch-if, revbid.js)
-newsminer.uno,adwyn.uno##+js(no-xhr-if, adsbygoogle.js, length:11000)
-newsminer.uno,adwyn.uno##+js(nano-sib, , 5000, 0.02)
-newsminer.uno,adwyn.uno##+js(nano-stb, , *, 0.02)
-||isproxy.eu$domain=newsminer.uno|adwyn.uno
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##.container-fluid .row
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .placed-ad)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(trusted-replace-argument, document.querySelectorAll, 0, json:"body", condition, .placed-ad)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(trusted-replace-argument, document.querySelector, 0, json:"body", condition, .container-fluid .row)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(nano-sib, document.hidden, *, 0.02)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(set, document.hidden, true, runAt, 3)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(spoof-css, .row, display, block, visibility, visible)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(no-fetch-if, revbid.js)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(no-xhr-if, adsbygoogle.js, length:11000)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(nano-sib, , 5000, 0.02)
+wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(nano-stb, , *, 0.02)
+||isproxy.eu$domain=wii.si|bitwidgets.net,|newsminer.uno|adwyn.uno
 
 !COINCLIX
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-13585108
