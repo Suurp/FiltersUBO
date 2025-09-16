@@ -226,11 +226,13 @@ hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, current >= 
 hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(rpnt, script, var bodyWidth = document.body.clientWidth;, 'var bodyWidth = document.body.clientWidth; document.querySelector("#verify > button").setAttribute("onclick", "check3();"); document.querySelector("form[onkeydown]").setAttribute("onkeydown", "if (event.key === Enter) return check3();");')
 
 !BITCOFAST
+!https://github.com/Suurp/FiltersUBO/issues/4
 bitcofast.com###btn3:others()
 bitcofast.com###btn3:style(display: block !important)
 ||bitcotasks.com/popad*$redirect=popads.js
 
 !FEYORRA
+!https://github.com/Suurp/FiltersUBO/issues/4
 feyorra.site##[style*="overflow:hidden"]:not(:has(#loginBtnText))
 feyorra.site##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
 feyorra.site##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
@@ -239,6 +241,7 @@ feyorra.site##+js(nowoif, , obj)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=feyorra.site
 
 !EARN-TRUMP
+!https://github.com/Suurp/FiltersUBO/issues/4
 earn-trump.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe)
 earn-trump.com##.text-center.row:has(#ClaimForm):style(display: flex !important; justify-content: center)
 earn-trump.com##+js(noeval-if, /chp_?ad/)
@@ -249,8 +252,25 @@ earn-trump.com##+js(nowoif, , obj)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-trump.com
 
 !EARN-BONK
+!https://github.com/Suurp/FiltersUBO/issues/4
 earn-bonk.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe), .text-center:has(> ins), .ads:has(> ins)
 earn-bonk.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
 earn-bonk.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
 earn-bonk.com##+js(nowoif, , obj)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-bonk.com
+
+!AII.SH - LNBZ.LA
+!https://github.com/Suurp/FiltersUBO/issues/7
+aii.sh,lnbz.la###go_d2:style(display: block !important)
+aii.sh,lnbz.la##a[href][target="_blank"]
+aii.sh,lnbz.la##.td-post-template-default.td-container, .banner-inner, #droplink-step-one, #droplink-step-two
+
+!HOOTREWARDS
+!https://github.com/Suurp/FiltersUBO/issues/7
+hootrewards.com##.overflow-hidden, .row > .text-center:has([src*="banner_ads.js"])
+hootrewards.com##+js(aeld, click, window.open, elements, '#claimSubmitBtn, #claimBtn')
+hootrewards.com###claimModal:style(display: block !important)
+hootrewards.com##+js(trusted-set-attr, #claimModal, class, 'show fade modal')
+||hootrewards.com/antiAdBlocker$script,redirect=noopjs
+||surfvisits.com$domain=hootrewards.com
+||bitadspace.com$domain=hootrewards.com
