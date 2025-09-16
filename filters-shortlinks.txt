@@ -187,7 +187,7 @@ wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(no-fetch-if, revbid.js)
 wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(no-xhr-if, adsbygoogle.js, length:11000)
 wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(nano-sib, , 5000, 0.02)
 wii.si,bitwidgets.net,newsminer.uno,adwyn.uno##+js(nano-stb, , *, 0.02)
-||isproxy.eu$domain=wii.si|bitwidgets.net,|newsminer.uno|adwyn.uno
+||isproxy.eu$domain=wii.si|bitwidgets.net|newsminer.uno|adwyn.uno
 
 !COINCLIX
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-13585108
@@ -202,7 +202,6 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nano-stb, *, 3000, 0.20)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set, document.activeElement, { "value": {"tagName": "IFRAME" }}, runAt, 2)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, document.hasFocus, falseFunc)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, window.google_tag_manager, {})
-coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, window.dataLayer.length, 1)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nowoif)
 ||/assets/images$image,redirect=32x32.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||a-ads.com^$frame,redirect-rule=noopframe,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
