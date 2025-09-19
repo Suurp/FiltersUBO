@@ -274,3 +274,22 @@ hootrewards.com##+js(trusted-set-attr, #claimModal, class, 'show fade modal')
 ||hootrewards.com/antiAdBlocker$script,redirect=noopjs
 ||surfvisits.com$domain=hootrewards.com
 ||bitadspace.com$domain=hootrewards.com
+
+!AOYCO.IN
+aoyco.in##+js(aopr, detectedAdblock)
+aoyco.in##+js(nowoif, , obj)
+aoyco.in##+js(set, window.closed, false)
+aoyco.in##+js(set, window.focus, falseFunc)
+||aoyco.in/js/ad-server.js$script,1p
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=aoyco.in
+
+!STARLAVINIA
+starlavinia.name.tr##+js(aopr, window.outerWidth)
+starlavinia.name.tr##[class*="col-span"]:has(#openClaimModal):style(grid-column: span 12 / span 12 !important)
+starlavinia.name.tr##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
+starlavinia.name.tr##+js(aopr, detectedAdblock)
+starlavinia.name.tr##+js(nowoif, , obj)
+starlavinia.name.tr##+js(set, window.closed, false)
+starlavinia.name.tr##+js(set, window.focus, falseFunc)
+||starlavinia.name.tr/dist/js/global.js$script,1p
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=starlavinia.name.tr
