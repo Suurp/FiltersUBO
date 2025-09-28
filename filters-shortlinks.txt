@@ -59,20 +59,6 @@ khalarkobor.com,4kphotoediting.com##+js(set, document.hasFocus, trueFunc)
 khalarkobor.com,4kphotoediting.com##+js(rmnt, script, getStoredTabSwitchTime)
 khalarkobor.com,4kphotoediting.com###click, #redirect-link, [class^="btn-"], #captcha-container, #switchCaptcha, [src*="/recaptcha/"]:others()
 
-!BITCOTASK
-! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12618435
-@@||bitcotasks.com/captcha2/*
-bitcotasks.com#@#+js(nostif, alert)
-bitcotasks.com#@#+js(nostif, offsetWidth)
-bitcotasks.com##+js(nostif, window.location.replace, 1200)
-bitcotasks.com##+js(rpnt, script, /window\.open\(['"]([^'"]+)['"]\);/gm, true, condition, myWindow)
-bitcotasks.com##+js(rpnt, script, myWindow.closed == true || window_focus, false, condition, myWindow)
-bitcotasks.com##+js(set, window_focus, true)
-bitcotasks.com##+js(set, window_paused, false)
-bitcotasks.com###BitcoAdContainer, #blog
-bitcotasks.com##+js(nano-stb, showadbar, 5000)
-bitcotasks.com##+js(nano-stb, show_captcha, 1000)
-
 !EARNOW - SHORTINO - SHORTANO
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12440365
 techiephone.com,renovatehub.net,retrocove.net,geotides.net,chownest.com,lifeprovy.com,vaultfind.net,tastywhiz.com,gamestopia.net,gputrends.net,mythnest.com,plantsguide.net,wiki-topia.com,makeupguide.net,wanderjourney.net,fitbodygenius.com,origamiarthub.com,dailytech-news.eu,petsguide.net,hobbymania.net,constructorspro.com,insurancegold.in,cinemascene.net,tvseriescentral.net,cookinguide.net,carsmania.net,melodyspot.net,webfreetools.net,coinsrise.net,coinstrend.net,funplayarcade.com,gadgetbuzz.net,insurancexguide.com,coinscap.info,coinsvalue.net,giftmagic.net,freeoseocheck.com,cryptowidgets.net##form:has(> :matches-css(align-items: center)):style(display: block !important;)
@@ -136,7 +122,6 @@ vmkeo.com###popup, #frame
 vmkeo.com##header:style(margin-bottom: 0px !important)
 vmkeo.com##+js(nowoif, Popup_Window)
 
-
 !MONOSCHINOS
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12654838
 monoschinos.club###wpsafe-link, #link:style(display: block !important;)
@@ -146,7 +131,6 @@ monoschinos.club###wpsafe-link, #link:others()
 !https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12666195
 shortclick.xyz###frame, #cookie-pop
 coinspare.xyz##+js(rpnt, script, element.contains(document.activeElement) && !timeCounted, true)
-! coinspare.xyz##+js(trusted-set-attr, html, class, placed-ad)
 coinspare.xyz##+js(set, document.hidden, true)
 coinspare.xyz##.container-fluid .row, [id*="revbid-big-skyscraper"], .sads, .cacat, .floating-banner, #fl-ad, span:has(> a[href="https://t.me/earnowonline"])
 coinspare.xyz##+js(no-xhr-if, rollercoin.com)
@@ -209,12 +193,6 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nowoif)
 ||adskeeper.com^$image,redirect-rule=2x2.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||hilltopads.com^$image,redirect-rule=2x2.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 
-!VIEFAUCET
-viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
-viefaucet.com##.el-row:has(.wait-container):style(justify-content: center)
-viefaucet.com##.offerwall-widget, .coinsgame, div:has(> #bm-720)
-viefaucet.com##+js(nosiif, this.timerRef, 2000)
-
 !SGTG - HNTG - DNTG
 hanoitravel.xyz,saigontravel.top,danangtravel.top##+js(set, blurred, false)
 hanoitravel.xyz,saigontravel.top,danangtravel.top##.box-main > .blog-item
@@ -232,65 +210,8 @@ bitcofast.com###btn3:others()
 bitcofast.com###btn3:style(display: block !important)
 ||bitcotasks.com/popad*$redirect=popads.js
 
-!FEYORRA
-!https://github.com/Suurp/FiltersUBO/issues/4
-feyorra.site##[style*="overflow:hidden"]:not(:has(#loginBtnText))
-feyorra.site##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
-feyorra.site##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
-feyorra.site##+js(nowoif, , obj)
-@@||cdn.jsdelivr.net/npm/@fingerprintjs
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=feyorra.site
-
-!EARN-TRUMP
-!https://github.com/Suurp/FiltersUBO/issues/4
-earn-trump.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe)
-earn-trump.com##.text-center.row:has(#ClaimForm):style(display: flex !important; justify-content: center)
-earn-trump.com##+js(noeval-if, /chp_?ad/)
-earn-trump.com##+js(set, document.hasFocus, trueFunc)
-earn-trump.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
-earn-trump.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
-earn-trump.com##+js(nowoif, , obj)
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-trump.com
-
-!EARN-BONK
-!https://github.com/Suurp/FiltersUBO/issues/4
-earn-bonk.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe), .text-center:has(> ins), .ads:has(> ins)
-earn-bonk.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
-earn-bonk.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
-earn-bonk.com##+js(nowoif, , obj)
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-bonk.com
-
 !AII.SH - LNBZ.LA
 !https://github.com/Suurp/FiltersUBO/issues/7
 aii.sh,lnbz.la###go_d2:style(display: block !important)
 aii.sh,lnbz.la##a[href][target="_blank"]
 aii.sh,lnbz.la##.td-post-template-default.td-container, .banner-inner, #droplink-step-one, #droplink-step-two
-
-!HOOTREWARDS
-!https://github.com/Suurp/FiltersUBO/issues/7
-hootrewards.com##.overflow-hidden, .row > .text-center:has([src*="banner_ads.js"])
-hootrewards.com##+js(aeld, click, window.open, elements, '#claimSubmitBtn, #claimBtn')
-hootrewards.com###claimModal:style(display: block !important)
-hootrewards.com##+js(trusted-set-attr, #claimModal, class, 'show fade modal')
-||hootrewards.com/antiAdBlocker$script,redirect=noopjs
-||surfvisits.com$domain=hootrewards.com
-||bitadspace.com$domain=hootrewards.com
-
-!AOYCO.IN
-aoyco.in##+js(aopr, detectedAdblock)
-aoyco.in##+js(nowoif, , obj)
-aoyco.in##+js(set, window.closed, false)
-aoyco.in##+js(set, window.focus, falseFunc)
-||aoyco.in/js/ad-server.js$script,1p
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=aoyco.in
-
-!STARLAVINIA
-starlavinia.name.tr##+js(aopr, window.outerWidth)
-starlavinia.name.tr##[class*="col-span"]:has(#openClaimModal):style(grid-column: span 12 / span 12 !important)
-starlavinia.name.tr##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
-starlavinia.name.tr##+js(aopr, detectedAdblock)
-starlavinia.name.tr##+js(nowoif, , obj)
-starlavinia.name.tr##+js(set, window.closed, false)
-starlavinia.name.tr##+js(set, window.focus, falseFunc)
-||starlavinia.name.tr/dist/js/global.js$script,1p
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=starlavinia.name.tr
