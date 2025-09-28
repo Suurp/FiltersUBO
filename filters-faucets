@@ -1,0 +1,76 @@
+!BITCOTASK
+! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12618435
+@@||bitcotasks.com/captcha2/*
+bitcotasks.com#@#+js(nostif, alert)
+bitcotasks.com#@#+js(nostif, offsetWidth)
+bitcotasks.com##+js(nostif, window.location.replace, 1200)
+bitcotasks.com##+js(rpnt, script, /window\.open\(['"]([^'"]+)['"]\);/gm, true, condition, myWindow)
+bitcotasks.com##+js(rpnt, script, myWindow.closed == true || window_focus, false, condition, myWindow)
+bitcotasks.com##+js(set, window_focus, true)
+bitcotasks.com##+js(set, window_paused, false)
+bitcotasks.com###BitcoAdContainer, #blog
+bitcotasks.com##+js(nano-stb, showadbar, 5000)
+bitcotasks.com##+js(nano-stb, show_captcha, 1000)
+
+!VIEFAUCET
+viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
+viefaucet.com##.el-row:has(.wait-container):style(justify-content: center)
+viefaucet.com##.offerwall-widget, .coinsgame, div:has(> #bm-720)
+viefaucet.com##+js(nosiif, this.timerRef, 2000)
+
+!FEYORRA
+!https://github.com/Suurp/FiltersUBO/issues/4
+feyorra.site##[style*="overflow:hidden"]:not(:has(#loginBtnText))
+feyorra.site##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
+feyorra.site##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+feyorra.site##+js(nowoif, , obj)
+@@||cdn.jsdelivr.net/npm/@fingerprintjs
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=feyorra.site
+
+!EARN-TRUMP
+!https://github.com/Suurp/FiltersUBO/issues/4
+earn-trump.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe)
+earn-trump.com##.text-center.row:has(#ClaimForm):style(display: flex !important; justify-content: center)
+earn-trump.com##+js(noeval-if, /chp_?ad/)
+earn-trump.com##+js(set, document.hasFocus, trueFunc)
+earn-trump.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
+earn-trump.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+earn-trump.com##+js(nowoif, , obj)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-trump.com
+
+!EARN-BONK
+!https://github.com/Suurp/FiltersUBO/issues/4
+earn-bonk.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm > .text-center:has(iframe), .text-center:has(> ins), .ads:has(> ins)
+earn-bonk.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
+earn-bonk.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+earn-bonk.com##+js(nowoif, , obj)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-bonk.com
+
+!HOOTREWARDS
+!https://github.com/Suurp/FiltersUBO/issues/7
+hootrewards.com##.overflow-hidden, .row > .text-center:has([src*="banner_ads.js"])
+hootrewards.com##+js(aeld, click, window.open, elements, '#claimSubmitBtn, #claimBtn')
+hootrewards.com###claimModal:style(display: block !important)
+hootrewards.com##+js(trusted-set-attr, #claimModal, class, 'show fade modal')
+||hootrewards.com/antiAdBlocker$script,redirect=noopjs
+||surfvisits.com$domain=hootrewards.com
+||bitadspace.com$domain=hootrewards.com
+
+!AOYCO.IN
+aoyco.in##+js(aopr, detectedAdblock)
+aoyco.in##+js(nowoif, , obj)
+aoyco.in##+js(set, window.closed, false)
+aoyco.in##+js(set, window.focus, falseFunc)
+||aoyco.in/js/ad-server.js$script,1p
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=aoyco.in
+
+!STARLAVINIA
+starlavinia.name.tr##+js(aopr, window.outerWidth)
+starlavinia.name.tr##[class*="col-span"]:has(#openClaimModal):style(grid-column: span 12 / span 12 !important)
+starlavinia.name.tr##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
+starlavinia.name.tr##+js(aopr, detectedAdblock)
+starlavinia.name.tr##+js(nowoif, , obj)
+starlavinia.name.tr##+js(set, window.closed, false)
+starlavinia.name.tr##+js(set, window.focus, falseFunc)
+||starlavinia.name.tr/dist/js/global.js$script,1p
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=starlavinia.name.tr
