@@ -74,3 +74,11 @@ starlavinia.name.tr##+js(set, window.closed, false)
 starlavinia.name.tr##+js(set, window.focus, falseFunc)
 ||starlavinia.name.tr/dist/js/global.js$script,1p
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=starlavinia.name.tr
+
+!CRYPTOFUTURE.CO.IN
+!https://github.com/Suurp/FiltersUBO/issues/13
+cryptofuture.co.in##.ads, div:has(#banner-container), .page-wrapper, ins
+cryptofuture.co.in##.row:has(#fauform), .text-center.row:has([href*="/links/"]):style(display: flex; justify-content: center)
+cryptofuture.co.in##+js(rpnt, script, /: 1000|: 500|: 3000/gm, : 0)
+cryptofuture.co.in##+js(rpnt, script, displayInitialMessage: true, displayInitialMessage: false)
+||cryptofuture.co.in/assets/js/adblock-detector.js$script,redirect=noopjs
