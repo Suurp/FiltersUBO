@@ -1,43 +1,299 @@
-# 🛡️ uBlock Origin – Custom Filter List  
-**uBlock Origin – Lista personalizada de filtros**
+# 🛡️ FiltersUBO
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![uBlock Origin](https://img.shields.io/badge/uBlock%20Origin-Compatible-red.svg)](https://github.com/gorhill/uBlock)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Suurp/FiltersUBO/graphs/commit-activity)
+
+**🚫 Custom filter lists for uBlock Origin**
+
+[🇺🇸 English](#-english) • [🇪🇸 Español](#-español)
+
+</div>
 
 ---
 
-## 🌐 Description | Descripción
+## 🇺🇸 English
 
-**English:**  
-This is a personal filter list created for **uBlock Origin**, focused on blocking:
+### 📋 Description
 
-- Shortlinks and redirect services  
-- Link monetization platforms  
-- Suspicious domains used to bypass content or inject ads
+FiltersUBO is a collection of custom filter lists designed specifically for **uBlock Origin**, focused on improving your browsing experience by blocking:
 
-**Español:**  
-Esta es una lista de filtros personalizada para **uBlock Origin**, enfocada en bloquear:
+#### 🔗 Shortlinks Filter
+Blocks shortlink services and malicious redirect platforms used for:
+- Link monetization and forced redirects
+- Unwanted content jumps
+- Intrusive ad injection through redirects
+- Automatic unwanted redirections
 
-- Acortadores de enlaces y servicios de redirección  
-- Plataformas de monetización de links  
-- Dominios sospechosos usados para saltos de contenido o inyecciones de anuncios
+#### 💰 Faucets Filter
+Blocks cryptocurrency faucets and related services that:
+- Force ad views for minimal crypto rewards
+- Deploy aggressive monetization tactics
+- Redirect through multiple ad networks
+- Execute intrusive scripts
+
+### 🚀 Installation
+
+You can subscribe to individual lists based on your needs, or use both for complete protection.
+
+#### 📋 Available Lists
+
+| List | Purpose | Subscribe |
+|------|---------|-----------|
+| 🔗 **Shortlinks** | Blocks URL shorteners and redirect services | [📥 Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-shortlinks.txt&title=FiltersUBO%20-%20Shortlinks) |
+| 💰 **Faucets** | Blocks cryptocurrency faucets and related sites | [📥 Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-faucets.txt&title=FiltersUBO%20-%20Faucets) |
+
+#### Method 1: Direct subscription (Recommended)
+
+1. ✅ Make sure you have [uBlock Origin](https://github.com/gorhill/uBlock) installed
+2. 🔗 Click on the **Subscribe** link for the list(s) you want from the table above
+3. ✔️ Confirm the subscription in the uBlock Origin dialog
+4. ⚙️ **IMPORTANT:** Configure trusted lists (see section below)
+
+#### Method 2: Manual installation
+
+1. 🔧 Open the uBlock Origin dashboard
+2. 📋 Go to the **"Filter lists"** tab
+3. ⬇️ Scroll down to **"Custom"**
+4. ☑️ Check **"Import..."**
+5. 📝 Paste the URL for the list you want:
+   
+   **Shortlinks:**
+   ```
+   https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-shortlinks.txt
+   ```
+   
+   **Faucets:**
+   ```
+   https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-faucets.txt
+   ```
+6. 💾 Click **"Apply changes"**
+7. ⚙️ **IMPORTANT:** Configure trusted lists (see section below)
+
+### ⚙️ Required: Configure Trusted Lists
+
+**This step is mandatory for the filters to work correctly.**
+
+Some filters in these lists require trust configuration. Follow these steps:
+
+1. 🔧 Open uBlock Origin dashboard
+2. ⚙️ Go to **Settings** tab
+3. ☑️ Enable **"I am an advanced user"** (a gear icon ⚙️ will appear)
+4. 🖱️ Click the gear icon ⚙️ that appeared next to "I am an advanced user"
+5. 📝 Find the setting **`trustedListPrefixes`**
+6. ✏️ Add the following to the existing value (separated by space):
+   ```
+   https://raw.githubusercontent.com/Suurp/FiltersUBO/
+   ```
+   
+   **Example - before:**
+   ```
+   ublock-
+   ```
+   
+   **Example - after:**
+   ```
+   ublock- https://raw.githubusercontent.com/Suurp/FiltersUBO/
+   ```
+
+7. 💾 Click **"Apply changes"**
+8. 🔄 Restart your browser or reload uBlock Origin
+
+**Note:** This configuration tells uBlock Origin to trust filters from this repository, allowing advanced filtering rules to work properly.
+
+### 🔄 Updates
+
+The lists are regularly updated with new domains and improvements. uBlock Origin will automatically update the filters according to its settings (by default, every few days).
+
+**🔧 To update manually:**
+1. Open the uBlock Origin dashboard
+2. Go to **"Filter lists"**
+3. Click the clock icon **🕐** (Update now)
+
+### ⚠️ Warnings and Limitations
+
+- These lists are provided **"as-is"** for personal use
+- Some shorteners or faucets may bypass blocks using advanced JavaScript techniques
+- There may be occasional **false positives** (legitimate sites blocked)
+- **⚡ Important**: Recommended to use **only with uBlock Origin's default filters**
+  - Default filters include: EasyList, EasyPrivacy, Peter Lowe's Ad and tracking server list, and malware lists
+  - Adding other third-party lists may cause **conflicts** or **errors**
+  - If you experience issues, verify that you only have default filters + FiltersUBO active
+
+### 🤝 Contributing
+
+Contributions are welcome! You can help in the following ways:
+
+#### 🐛 Report issues
+- **False positives**: Legitimate sites incorrectly blocked
+- **Missing domains**: Shorteners, faucets, or redirect services that aren't blocked
+- Specify which list the issue relates to (Shortlinks or Faucets)
+
+#### 💡 How to contribute
+1. **[📝 Open an Issue](https://github.com/Suurp/FiltersUBO/issues/new)** with specific details
+2. **[🔀 Create a Pull Request](https://github.com/Suurp/FiltersUBO/pulls)** with your suggestions
+3. 📎 Provide URL examples and specify the target list
+
+### 📊 Statistics
+
+- 📦 **Lists available**: 2 (Shortlinks + Faucets)
+- 🕐 **Last update**: See recent commits
+- 🏷️ **Categories covered**: Shorteners, monetization, redirects, faucets, crypto scams
+
+### 📜 License
+
+📄 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+### 🙏 Acknowledgments
+
+💙 Thanks to the uBlock Origin community and all contributors who help keep the Internet cleaner and safer.
 
 ---
 
-## 🚧 Disclaimer | Aviso
+## 🇪🇸 Español
 
-**English:**
-This filter list is provided as-is for personal use. Some shorteners may still bypass blocks using JavaScript tricks.
+### 📋 Descripción
 
-**Español:**
-Esta lista se ofrece tal cual para uso personal. Algunos acortadores pueden evadir los bloqueos mediante trucos con JavaScript.
+FiltersUBO es una colección de listas de filtros personalizadas diseñadas específicamente para **uBlock Origin**, enfocadas en mejorar tu experiencia de navegación mediante el bloqueo de:
+
+#### 🔗 Filtro de Shortlinks
+Bloquea servicios de acortadores de enlaces y plataformas de redirección maliciosas utilizadas para:
+- Monetización de enlaces y redirecciones forzadas
+- Saltos de contenido no deseados
+- Inyección de anuncios intrusivos a través de redirecciones
+- Redirecciones automáticas no deseadas
+
+#### 💰 Filtro de Faucets
+Bloquea faucets de criptomonedas y servicios relacionados que:
+- Fuerzan visualización de anuncios por recompensas mínimas de crypto
+- Despliegan tácticas de monetización agresivas
+- Redirigen a través de múltiples redes de anuncios
+- Ejecutan scripts intrusivos
+
+### 🚀 Instalación
+
+Puedes suscribirte a listas individuales según tus necesidades, o usar ambas para protección completa.
+
+#### 📋 Listas Disponibles
+
+| Lista | Propósito | Suscribirse |
+|-------|-----------|-------------|
+| 🔗 **Shortlinks** | Bloquea acortadores de URL y servicios de redirección | [📥 Suscribirse](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-shortlinks.txt&title=FiltersUBO%20-%20Shortlinks) |
+| 💰 **Faucets** | Bloquea faucets de criptomonedas y sitios relacionados | [📥 Suscribirse](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-faucets.txt&title=FiltersUBO%20-%20Faucets) |
+
+#### Método 1: Suscripción directa (Recomendado)
+
+1. ✅ Asegúrate de tener [uBlock Origin](https://github.com/gorhill/uBlock) instalado
+2. 🔗 Haz clic en el enlace **Suscribirse** de la(s) lista(s) que desees de la tabla anterior
+3. ✔️ Confirma la suscripción en el cuadro de diálogo de uBlock Origin
+4. ⚙️ **IMPORTANTE:** Configura las listas de confianza (ver sección abajo)
+
+#### Método 2: Instalación manual
+
+1. 🔧 Abre el panel de uBlock Origin
+2. 📋 Ve a la pestaña **"Listas de filtros"**
+3. ⬇️ Desplázate hasta **"Personalizado"**
+4. ☑️ Marca **"Importar..."**
+5. 📝 Pega la URL de la lista que deseas:
+   
+   **Shortlinks:**
+   ```
+   https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-shortlinks.txt
+   ```
+   
+   **Faucets:**
+   ```
+   https://raw.githubusercontent.com/Suurp/FiltersUBO/refs/heads/main/filters-faucets.txt
+   ```
+6. 💾 Haz clic en **"Aplicar cambios"**
+7. ⚙️ **IMPORTANTE:** Configura las listas de confianza (ver sección abajo)
+
+### ⚙️ Requerido: Configurar Listas de Confianza
+
+**Este paso es obligatorio para que los filtros funcionen correctamente.**
+
+Algunos filtros en estas listas requieren configuración de confianza. Sigue estos pasos:
+
+1. 🔧 Abre el panel de uBlock Origin
+2. ⚙️ Ve a la pestaña **Configuración**
+3. ☑️ Activa **"Soy un usuario avanzado"** (aparecerá un icono de engranaje ⚙️)
+4. 🖱️ Haz clic en el icono de engranaje ⚙️ que apareció junto a "Soy un usuario avanzado"
+5. 📝 Busca la configuración **`trustedListPrefixes`**
+6. ✏️ Agrega lo siguiente al valor existente (separado por espacio):
+   ```
+   https://raw.githubusercontent.com/Suurp/FiltersUBO/
+   ```
+   
+   **Ejemplo - antes:**
+   ```
+   ublock-
+   ```
+   
+   **Ejemplo - después:**
+   ```
+   ublock- https://raw.githubusercontent.com/Suurp/FiltersUBO/
+   ```
+
+7. 💾 Haz clic en **"Aplicar cambios"**
+8. 🔄 Reinicia tu navegador o recarga uBlock Origin
+
+**Nota:** Esta configuración le indica a uBlock Origin que confíe en los filtros de este repositorio, permitiendo que las reglas de filtrado avanzadas funcionen correctamente.
+
+### 🔄 Actualizaciones
+
+Las listas se actualizan regularmente con nuevos dominios y mejoras. uBlock Origin actualizará automáticamente los filtros según su configuración (por defecto, cada varios días).
+
+**🔧 Para actualizar manualmente:**
+1. Abre el panel de uBlock Origin
+2. Ve a **"Listas de filtros"**
+3. Haz clic en el icono de reloj **🕐** (Actualizar ahora)
+
+### ⚠️ Advertencias y Limitaciones
+
+- Estas listas se proporcionan **"tal cual"** para uso personal
+- Algunos acortadores o faucets pueden evadir los bloqueos mediante técnicas JavaScript avanzadas
+- Puede haber **falsos positivos** ocasionales (sitios legítimos bloqueados)
+- **⚡ Importante**: Se recomienda usar **únicamente con los filtros predeterminados** de uBlock Origin
+  - Los filtros predeterminados incluyen: EasyList, EasyPrivacy, Peter Lowe's Ad and tracking server list, y las listas de malware
+  - Agregar otras listas de terceros puede causar **conflictos** o **errores**
+  - Si experimentas problemas, verifica que solo tengas activos los filtros por defecto + FiltersUBO
+
+### 🤝 Contribuir
+
+¡Las contribuciones son bienvenidas! Puedes ayudar de las siguientes maneras:
+
+#### 🐛 Reportar problemas
+- **Falsos positivos**: Sitios legítimos bloqueados incorrectamente
+- **Dominios faltantes**: Acortadores, faucets o servicios de redirección que no están bloqueados
+- Especifica a qué lista se refiere el problema (Shortlinks o Faucets)
+
+#### 💡 Cómo contribuir
+1. **[📝 Abrir un Issue](https://github.com/Suurp/FiltersUBO/issues/new)** con detalles específicos
+2. **[🔀 Crear un Pull Request](https://github.com/Suurp/FiltersUBO/pulls)** con tus sugerencias
+3. 📎 Proporciona ejemplos de URLs y especifica la lista objetivo
+
+### 📊 Estadísticas
+
+- 📦 **Listas disponibles**: 2 (Shortlinks + Faucets)
+- 🕐 **Última actualización**: Ver commits recientes
+- 🏷️ **Categorías cubiertas**: Acortadores, monetización, redirecciones, faucets, estafas crypto
+
+### 📜 Licencia
+
+📄 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+### 🙏 Agradecimientos
+
+💙 Gracias a la comunidad de uBlock Origin y a todos los colaboradores que ayudan a mantener Internet más limpio y seguro.
 
 ---
 
-## 🤝 Contributions | Contribuciones
+<div align="center">
 
-**English:**
-Want to suggest new entries or report false positives?
-Open an Issue or make a Pull Request!
+**[⬆ Back to top](#-filtersubo) • [🐛 Report an issue](https://github.com/Suurp/FiltersUBO/issues)**
 
-**Español:**
-¿Quieres sugerir nuevos dominios o reportar falsos positivos?
-¡Abre un Issue o crea un Pull Request!
+Made with ❤️ for a cleaner web
 
+</div>
