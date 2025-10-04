@@ -1,3 +1,14 @@
+! Title: 💰 CryptoBlock - Faucets Blocker
+! Description: Blocks cryptocurrency faucets, mining sites, and crypto scam platforms
+! Homepage: https://github.com/Suurp/uBlock-CustomFilters
+! License: https://github.com/Suurp/uBlock-CustomFilters/blob/main/LICENSE
+! Version: %timestamp%
+! Last modified: %timestamp%
+! Expires: 3 days
+!
+! GitHub issues: https://github.com/Suurp/uBlock-CustomFilters/issues
+! GitHub pull requests: https://github.com/Suurp/uBlock-CustomFilters/pulls
+
 !BITCOTASK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12618435
 @@||bitcotasks.com/captcha2/*
