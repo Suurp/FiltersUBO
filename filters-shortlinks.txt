@@ -87,11 +87,10 @@ bitcotasks.com/banner.php##+js(nano-stb, , 4000, 0.02)
 
 !ADLINK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12555848
-maqal360.com,diudemy.com##.clock-col, .alert, #append:others()
+maqal360.com,diudemy.com###countdown-wrapper, .go_next:others()
+maqal360.com,diudemy.com###skip-btn:style(display: block !important)
 maqal360.com,diudemy.com##+js(acs, document.onkeydown)
 maqal360.com,diudemy.com##+js(aeld, contextmenu)
-maqal360.com,diudemy.com##+js(rpnt, script, startCountdown(20);, startCountdown(0);)
-maqal360.com,diudemy.com##+js(rpnt, script, num_page != 3 && num_page != 6, true)
 
 !BITAD
 !https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12456971
