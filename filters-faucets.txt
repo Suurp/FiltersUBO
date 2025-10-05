@@ -44,8 +44,9 @@ earn-trump.com##[style*="overflow:hidden"]:not(:has(#loginBtnText)), #loginForm 
 earn-trump.com##.text-center.row:has(#ClaimForm):style(display: flex !important; justify-content: center)
 earn-trump.com##+js(noeval-if, /chp_?ad/)
 earn-trump.com##+js(set, document.hasFocus, trueFunc)
-earn-trump.com##+js(rpnt, script, /!adWindow|adWindow && adWindow.closed && !adViewCompleted|adWindow && adWindow.closed/ig, false)
-earn-trump.com##+js(rpnt, script, /adWindow && !adWindow.closed && document.hidden|!document.hidden && adWindow && !adWindow.closed && !adViewCompleted|document.hidden \|\| document.msHidden \|\| document.webkitHidden \|\| document.mozHidden/ig, true)
+earn-trump.com##+js(set, window.closed, false)
+earn-trump.com##+js(set, window.focus, falseFunc)
+earn-trump.com##+js(rpnt, script, !e.isTrusted, false)
 earn-trump.com##+js(nowoif, , obj)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=earn-trump.com
 
