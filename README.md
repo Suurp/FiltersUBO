@@ -123,31 +123,73 @@ The lists are regularly updated with new bypass techniques and improvements. uBl
 
 ### ⚠️ Warnings and Limitations
 
-- These lists are provided **"as-is"** for personal use
-- Some sites may update their anti-bypass mechanisms
-- Timer manipulation may not work on all sites
-- **Ethical use only** - respect website terms of service
+- These lists are provided **"as-is"** for **educational and research purposes**
+- 📚 **About These Filters**: 
+  - These filters use advanced web manipulation techniques similar to those found in popular userscripts and browser extensions
+  - **Techniques used**: Timer optimization, automated interactions, script modifications, and client-side bypasses
+  - **Please note**: Some websites may have Terms of Service that restrict automated interactions
+  - These are learning tools to understand how web filtering and automation work
+  - **Recommended use**: Personal research, testing, and educational purposes
+- Some sites may detect and block these techniques
+- Effectiveness varies by website implementation
+- Captcha bypass only works on client-side validated captchas (improperly implemented ones)
 - **⚡ Important**: Recommended to use **only with uBlock Origin's default filters**
   - Default filters include: EasyList, EasyPrivacy, Peter Lowe's Ad and tracking server list, and malware lists
   - Adding other third-party lists may cause **conflicts** or **errors**
   - If you experience issues, verify that you only have default filters + uBlock-CustomFilters active
 
+### ⚖️ Legal Notice
+
+**Please read before using:**
+
+These filters use techniques commonly found in browser extensions and userscripts, including:
+- Timer optimization and manipulation
+- Automated interactions (clicking, form filling)
+- JavaScript modification (including event handling)
+- Client-side captcha bypasses (only for improperly validated captchas)
+- Anti-adblock detection handling
+- DOM manipulation and page behavior modification
+
+**Things to keep in mind:**
+- 📜 **Terms of Service**: Some websites have policies against automation. Review site ToS before use
+- 🎓 **Educational purpose**: These filters are meant for learning about web technologies and filtering
+- 🔧 **Testing & Research**: Useful for understanding client-side vs server-side security
+- ⚖️ **Your responsibility**: You're responsible for how you use these tools
+- 🤝 **Fair use**: Consider supporting websites you frequently use
+
+**Best used for:**
+- Learning about web automation and filtering techniques
+- Understanding how websites implement protections
+- Personal testing and research
+- Improving your browsing experience on sites you have permission to modify
+
+**Not recommended for:**
+- Large-scale automated abuse or farming
+- Circumventing paid services in bad faith
+- Violating website policies intentionally
+- Commercial spam or fraud
+
 ### 🎯 Features Breakdown
 
-#### LinkGuard (Shortlinks) includes:
+#### 🔗 LinkGuard (Shortlinks) includes:
 - ✨ Auto-bypass for popular shortlink services
 - 🚀 Timer speed boost (reduce wait times)
 - 🛡️ Anti-adblock bypass
 - 🚫 Ad and popup removal
 - 🔄 Automatic redirection handling
+- 🤖 **Automated clicking** on skip buttons
+- 🎯 **Script-based automation** for navigation
 - 📊 Works with: link-to.net, exe.io, ouo.io, and many more
 
-#### CryptoBlock (Faucets) includes:
+#### 💰 CryptoBlock (Faucets) includes:
 - 💰 PTC (Paid-To-Click) optimization
 - ⏱️ Claim timer boost
 - 🖼️ Iframe removal
 - 🚫 Anti-adblock bypass for faucets
-- 🎯 Captcha optimization
+- 🎯 Captcha optimization (bypasses improperly validated captchas)
+- 🤖 **Auto-clicking** for claims and ads
+- 🔄 **Automated form filling** and submission
+- 🔓 **Captcha bypass** for client-side only validation
 - 💎 Works with: faucetpay sites, autofaucets, PTC sites
 
 ### 🤝 Contributing
@@ -195,10 +237,12 @@ After installing the filters:
 
 #### Best Practices
 
-- 🔐 Use these filters **ethically** and respect website ToS
-- ⚡ Don't abuse bypass features
-- 💪 Support websites you use regularly
-- 📊 Report broken bypasses to help improve filters
+- 📚 **Learn and understand** what the filters do before using them
+- 📜 **Check website policies** if you're unsure about automation rules
+- 🎓 **Use for education** - great for learning about web technologies
+- 🤝 **Be respectful** - consider supporting sites you use regularly
+- 🛡️ **Use responsibly** - these are powerful tools, use them wisely
+- 💡 **Share knowledge** - help others learn about web filtering
 
 ### 🔗 Related Resources
 
@@ -210,9 +254,16 @@ After installing the filters:
 ### ❓ FAQ
 
 <details>
-<summary><b>Are these filters legal?</b></summary>
+<summary><b>Are these filters legal to use?</b></summary>
 
-Yes. These filters automate what a user could do manually. However, always respect website terms of service and use ethically.
+These filters use techniques similar to those in many popular browser extensions and userscripts (like Tampermonkey scripts, Greasemonkey, etc.). The legality depends on how you use them:
+
+- ✅ **Personal use and learning**: Generally fine for educational purposes
+- ✅ **Understanding web technologies**: Totally okay
+- ⚠️ **Website ToS**: Some sites prohibit automation - review their policies
+- ❌ **Large-scale abuse**: Not recommended and likely against site policies
+
+**Bottom line**: Use responsibly, respect website policies, and you'll generally be fine. These are tools for learning and personal use.
 </details>
 
 <details>
@@ -268,11 +319,28 @@ Yes, if you're using Firefox for Android with uBlock Origin. Chrome mobile doesn
 
 📄 This project is licensed under the MIT License. See the [`LICENSE`](./LICENSE) file for details.
 
-**TL;DR:** You can use, modify, and distribute these filters freely. Use responsibly and ethically. No warranty is provided.
+**In simple terms:** You can use, modify, and share these filters freely. They're provided as-is for educational purposes. Use responsibly.
 
 ### ⚖️ Disclaimer
 
-These filters are for **educational and personal use only**. Users are responsible for complying with website terms of service. The authors are not responsible for any misuse of these filters.
+**Before using these filters, understand:**
+
+These filters are educational tools that demonstrate web filtering and automation techniques. Similar techniques are used in many popular browser extensions and userscripts available today.
+
+**What you should know:**
+- 🎓 **Educational focus**: Designed to help you learn about web technologies
+- 📜 **Website policies**: Some sites have rules about automation - it's your responsibility to review them
+- 🔧 **How you use it matters**: These are tools, and like any tool, they should be used responsibly
+- 🛡️ **No guarantees**: We provide these as-is, without warranties
+- 🤝 **Community project**: We maintain these for learning, not for abuse
+
+**Use these filters to:**
+- Learn about web filtering and automation
+- Improve your personal browsing experience
+- Understand web security concepts
+- Research and test on sites where appropriate
+
+Remember: Great power comes with great responsibility. Use these tools ethically and respectfully.
 
 ---
 
@@ -385,31 +453,73 @@ Las listas se actualizan regularmente con nuevas técnicas de bypass y mejoras. 
 
 ### ⚠️ Advertencias y Limitaciones
 
-- Estas listas se proporcionan **"tal cual"** para uso personal
-- Algunos sitios pueden actualizar sus mecanismos anti-bypass
-- La manipulación de timers puede no funcionar en todos los sitios
-- **Uso ético solamente** - respeta los términos de servicio de los sitios web
+- Estas listas se proporcionan **"tal cual"** para **propósitos educativos y de investigación**
+- 📚 **Sobre Estos Filtros**: 
+  - Estos filtros usan técnicas avanzadas de manipulación web similares a las encontradas en userscripts y extensiones de navegador populares
+  - **Técnicas usadas**: Optimización de timers, interacciones automatizadas, modificación de scripts y bypasses del lado del cliente
+  - **Ten en cuenta**: Algunos sitios web pueden tener Términos de Servicio que restringen interacciones automatizadas
+  - Estas son herramientas de aprendizaje para entender cómo funcionan el filtrado web y la automatización
+  - **Uso recomendado**: Investigación personal, pruebas y propósitos educativos
+- Algunos sitios pueden detectar y bloquear estas técnicas
+- La efectividad varía según la implementación del sitio web
+- El bypass de captchas solo funciona en captchas validados del lado del cliente (implementados incorrectamente)
 - **⚡ Importante**: Se recomienda usar **únicamente con los filtros predeterminados** de uBlock Origin
   - Los filtros predeterminados incluyen: EasyList, EasyPrivacy, Peter Lowe's Ad and tracking server list, y las listas de malware
   - Agregar otras listas de terceros puede causar **conflictos** o **errores**
   - Si experimentas problemas, verifica que solo tengas activos los filtros por defecto + uBlock-CustomFilters
 
+### ⚖️ Aviso Legal
+
+**Por favor lee antes de usar:**
+
+Estos filtros usan técnicas comúnmente encontradas en extensiones de navegador y userscripts, incluyendo:
+- Optimización y manipulación de timers
+- Interacciones automatizadas (clics, llenado de formularios)
+- Modificación de JavaScript (incluyendo manejo de eventos)
+- Bypasses de captchas del lado del cliente (solo para captchas validados incorrectamente)
+- Manejo de detección anti-adblock
+- Manipulación DOM y modificación de comportamiento de páginas
+
+**Ten en cuenta:**
+- 📜 **Términos de Servicio**: Algunos sitios web tienen políticas contra automatización. Revisa los ToS del sitio antes de usar
+- 🎓 **Propósito educativo**: Estos filtros están destinados para aprender sobre tecnologías web y filtrado
+- 🔧 **Pruebas e Investigación**: Útiles para entender seguridad del lado del cliente vs servidor
+- ⚖️ **Tu responsabilidad**: Eres responsable de cómo uses estas herramientas
+- 🤝 **Uso justo**: Considera apoyar los sitios web que usas frecuentemente
+
+**Mejor uso para:**
+- Aprender sobre técnicas de automatización y filtrado web
+- Entender cómo los sitios web implementan protecciones
+- Pruebas e investigación personal
+- Mejorar tu experiencia de navegación en sitios donde tienes permiso para modificar
+
+**No recomendado para:**
+- Abuso automatizado a gran escala o farming
+- Eludir servicios de pago de mala fe
+- Violar políticas de sitios web intencionalmente
+- Spam comercial o fraude
+
 ### 🎯 Desglose de Características
 
-#### LinkGuard (Shortlinks) incluye:
+#### 🔗 LinkGuard (Shortlinks) incluye:
 - ✨ Auto-bypass para servicios populares de shortlinks
 - 🚀 Boost de velocidad de timers (reduce tiempos de espera)
 - 🛡️ Bypass de anti-adblock
 - 🚫 Eliminación de anuncios y popups
 - 🔄 Manejo automático de redirecciones
+- 🤖 **Clics automatizados** en botones de saltar
+- 🎯 **Automatización basada en scripts** para navegación
 - 📊 Funciona con: link-to.net, exe.io, ouo.io, y muchos más
 
-#### CryptoBlock (Faucets) incluye:
+#### 💰 CryptoBlock (Faucets) incluye:
 - 💰 Optimización de PTC (Paid-To-Click)
 - ⏱️ Boost de timers de claim
 - 🖼️ Eliminación de iframes
 - 🚫 Bypass de anti-adblock para faucets
-- 🎯 Optimización de captchas
+- 🎯 Optimización de captchas (bypasea captchas validados incorrectamente)
+- 🤖 **Auto-clics** para claims y anuncios
+- 🔄 **Llenado y envío automático** de formularios
+- 🔓 **Bypass de captchas** con validación solo del lado del cliente
 - 💎 Funciona con: sitios faucetpay, autofaucets, sitios PTC
 
 ### 🤝 Contribuir
@@ -457,10 +567,12 @@ Después de instalar los filtros:
 
 #### Mejores Prácticas
 
-- 🔐 Usa estos filtros **éticamente** y respeta los ToS de los sitios
-- ⚡ No abuses de las funciones de bypass
-- 💪 Apoya los sitios que usas regularmente
-- 📊 Reporta bypasses rotos para ayudar a mejorar los filtros
+- 📚 **Aprende y entiende** qué hacen los filtros antes de usarlos
+- 📜 **Revisa políticas del sitio web** si no estás seguro sobre reglas de automatización
+- 🎓 **Úsalos para educación** - excelentes para aprender sobre tecnologías web
+- 🤝 **Sé respetuoso** - considera apoyar los sitios que usas regularmente
+- 🛡️ **Usa responsablemente** - estas son herramientas poderosas, úsalas sabiamente
+- 💡 **Comparte conocimiento** - ayuda a otros a aprender sobre filtrado web
 
 ### 🔗 Recursos Relacionados
 
@@ -472,9 +584,16 @@ Después de instalar los filtros:
 ### ❓ Preguntas Frecuentes
 
 <details>
-<summary><b>¿Son legales estos filtros?</b></summary>
+<summary><b>¿Es legal usar estos filtros?</b></summary>
 
-Sí. Estos filtros automatizan lo que un usuario podría hacer manualmente. Sin embargo, siempre respeta los términos de servicio del sitio web y úsalos éticamente.
+Estos filtros usan técnicas similares a las de muchas extensiones de navegador y userscripts populares (como scripts de Tampermonkey, Greasemonkey, etc.). La legalidad depende de cómo los uses:
+
+- ✅ **Uso personal y aprendizaje**: Generalmente bien para propósitos educativos
+- ✅ **Entender tecnologías web**: Totalmente bien
+- ⚠️ **ToS de sitios web**: Algunos sitios prohíben automatización - revisa sus políticas
+- ❌ **Abuso a gran escala**: No recomendado y probablemente contra políticas del sitio
+
+**Conclusión**: Úsalos responsablemente, respeta las políticas de los sitios web, y generalmente estarás bien. Estas son herramientas para aprendizaje y uso personal.
 </details>
 
 <details>
@@ -530,11 +649,28 @@ Sí, si estás usando Firefox para Android con uBlock Origin. Chrome móvil no s
 
 📄 Este proyecto está bajo la Licencia MIT. Ver el archivo [`LICENSE`](./LICENSE) para más detalles.
 
-**En resumen:** Puedes usar, modificar y distribuir estos filtros libremente. Úsalos responsable y éticamente. No se proporciona garantía.
+**En términos simples:** Puedes usar, modificar y compartir estos filtros libremente. Se proporcionan tal cual para propósitos educativos. Úsalos responsablemente.
 
 ### ⚖️ Descargo de Responsabilidad
 
-Estos filtros son para **uso educativo y personal únicamente**. Los usuarios son responsables de cumplir con los términos de servicio de los sitios web. Los autores no son responsables de ningún mal uso de estos filtros.
+**Antes de usar estos filtros, entiende:**
+
+Estos filtros son herramientas educativas que demuestran técnicas de filtrado web y automatización. Técnicas similares se usan en muchas extensiones de navegador y userscripts populares disponibles hoy.
+
+**Lo que debes saber:**
+- 🎓 **Enfoque educativo**: Diseñados para ayudarte a aprender sobre tecnologías web
+- 📜 **Políticas de sitios web**: Algunos sitios tienen reglas sobre automatización - es tu responsabilidad revisarlas
+- 🔧 **Cómo los uses importa**: Estas son herramientas, y como cualquier herramienta, deben usarse responsablemente
+- 🛡️ **Sin garantías**: Proporcionamos estos tal cual, sin garantías
+- 🤝 **Proyecto comunitario**: Mantenemos estos para aprendizaje, no para abuso
+
+**Usa estos filtros para:**
+- Aprender sobre filtrado web y automatización
+- Mejorar tu experiencia de navegación personal
+- Entender conceptos de seguridad web
+- Investigar y probar en sitios donde sea apropiado
+
+Recuerda: Un gran poder conlleva una gran responsabilidad. Usa estas herramientas ética y respetuosamente.
 
 ---
 
