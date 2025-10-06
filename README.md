@@ -16,6 +16,10 @@
 
 ## 🇺🇸 English
 
+> **⚠️ IMPORTANT NOTICE**
+> 
+> This project is for **educational and research purposes**. These filters use advanced techniques including script manipulation, timer optimization, automation, and client-side bypasses. While these are common in browser extensions and user scripts, please be aware of website Terms of Service. [Learn more](#️-disclaimer).
+
 ### 📋 Description
 
 uBlock-CustomFilters is a collection of custom filter lists designed specifically for **uBlock Origin**, focused on improving your browsing experience by blocking:
@@ -153,6 +157,10 @@ Contributions are welcome! You can help in the following ways:
 ---
 
 ## 🇪🇸 Español
+
+> **⚠️ AVISO IMPORTANTE**
+> 
+> Este proyecto es para **propósitos educativos e investigación**. Estos filtros usan técnicas avanzadas incluyendo manipulación de scripts, optimización de timers, automatización y bypasses del lado del cliente. Aunque estas técnicas son comunes en extensiones de navegador y user scripts, ten en cuenta los Términos de Servicio de los sitios. [Más información](#️-descargo-de-responsabilidad).
 
 ### 📋 Descripción
 
