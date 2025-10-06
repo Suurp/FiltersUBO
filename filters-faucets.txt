@@ -14,14 +14,19 @@
 @@||bitcotasks.com/captcha2/*
 bitcotasks.com#@#+js(nostif, alert)
 bitcotasks.com#@#+js(nostif, offsetWidth)
+bitcotasks.com#@#+js(no-fetch-if, bmcdn6)
+bitcotasks.com##+js(no-fetch-if, bmcdn6, , '{"type": "opaque"}')
 bitcotasks.com##+js(nostif, window.location.replace, 1200)
 bitcotasks.com##+js(rpnt, script, /window\.open\(['"]([^'"]+)['"]\);/gm, true, condition, myWindow)
 bitcotasks.com##+js(rpnt, script, myWindow.closed == true || window_focus, false, condition, myWindow)
 bitcotasks.com##+js(set, window_focus, true)
 bitcotasks.com##+js(set, window_paused, false)
-bitcotasks.com###BitcoAdContainer, #blog
+bitcotasks.com###BitcoAdContainer, #blog, .main-content:has([data-url])
 bitcotasks.com##+js(nano-stb, showadbar, 5000)
 bitcotasks.com##+js(nano-stb, show_captcha, 1000)
+bitcotasks.com##+js(nano-sib, timerInterval, 1000, 0.20)
+bitcotasks.com##+js(nano-stb, a.link, 1000, 0.20)
+||bitcotasks.com/popad*$redirect=popads.js
 
 !VIEFAUCET
 viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
