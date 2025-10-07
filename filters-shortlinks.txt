@@ -261,3 +261,11 @@ gamerev.us##+js(rpnt, script, !Number.isFinite(val) || val !== MATH.ans, false)
 techimkv.com##center:others()
 techimkv.com##+js(trusted-set, document.activeElement, { "value": {"tagName": "IFRAME" }}, runAt, 2)
 techimkv.com##+js(set, document.hidden, false)
+
+!LINKFOREARN
+linkforearn.com##.countdown-container, #shortLinkSection:others()
+linkforearn.com###shortLinkSection:style(display: block !important)
+linkforearn.com##.text-left
+linkforearn.com##+js(no-fetch-if, /outbrain|adligature|quant|srvtrck/, , '{"type": "opaque"}'))
+linkforearn.com##+js(noeval-if, /chp_?ad/)
+linkforearn.com##+js(aeld, contextmenu)
