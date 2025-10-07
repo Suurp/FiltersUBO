@@ -256,3 +256,8 @@ gamerev.us##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
 gamerev.us##[id^="visit-steps"]:others()
 gamerev.us##+js(nano-stb, onDone, *, 0.02)
 gamerev.us##+js(rpnt, script, !Number.isFinite(val) || val !== MATH.ans, false)
+
+!GPLINK
+techimkv.com##center:others()
+techimkv.com##+js(trusted-set, document.activeElement, { "value": {"tagName": "IFRAME" }}, runAt, 2)
+techimkv.com##+js(set, document.hidden, false)
