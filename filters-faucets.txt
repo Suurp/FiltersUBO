@@ -99,3 +99,15 @@ cryptofuture.co.in##.row:has(#fauform), .text-center.row:has([href*="/links/"]):
 cryptofuture.co.in##+js(rpnt, script, /: 1000|: 500|: 3000/gm, : 0)
 cryptofuture.co.in##+js(rpnt, script, displayInitialMessage: true, displayInitialMessage: false)
 ||cryptofuture.co.in/assets/js/adblock-detector.js$script,redirect=noopjs
+
+!ONLYFAUCET
+onlyfaucet.com#@#+js(rmnt, script, /fetch|adb/i)
+onlyfaucet.com##.ads, div:has(#banner-container), ins
+onlyfaucet.com##.row:has(#fauform), .row:has(.custom-claim-box):style(justify-content: center; flex-wrap: nowrap !important; flex-direction: column-reverse; align-items: center)
+onlyfaucet.com##.row:has([action*="https://onlyfaucet.com/challenge/claim"]):style(justify-content: center;)
+onlyfaucet.com##+js(rmnt, script, /loadScript|adContainer/i)
+onlyfaucet.com##+js(nostif, ad, 1000)
+onlyfaucet.com##+js(rpnt, script, img.complete && img.naturalWidth !== 0, true)
+onlyfaucet.com##+js(rpnt, script, let currentNonce = null;, let currentNonce = null; loadCaptcha();)
+onlyfaucet.com##+js(rpnt, script, feedback.classList.remove("error");, feedback.classList.remove("error"); const claimButton = document.getElementById("subbutt"); claimButton.click())
+onlyfaucet.com##+js(no-xhr-if, adsbygoogle.js)
