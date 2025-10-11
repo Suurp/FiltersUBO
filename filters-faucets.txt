@@ -115,3 +115,18 @@ onlyfaucet.com##+js(no-xhr-if, adsbygoogle.js)
 !FC-LC
 fc-lc.*##+js(rpnt, script, !dwellOK || !scoreOK, false)
 fc-lc.*##+js(rpnt, script, MIN_DWELL_MS = 8000, MIN_DWELL_MS = 0)
+
+!VMKEO
+blkeo.com##+js(rpnt, script, ai_block_class_def)
+blkeo.com##span[style*="color:red"], #codexa-snp2, #codexa-snp21, #continue-show, #codexa4tech:others()
+blkeo.com###codexa-snp2, #codexa-snp21, #bottom-continue-btn, #codexa4tech, #continue-show:style(display: block !important)
+blkeo.com##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
+blkeo.com##+js(nosiif, , 500)
+blkeo.com##+js(nowoif)
+blkeo.com##+js(nano-sib, /timer|progressInterval/, 1000)
+blkeo.com##+js(nano-stb, , 10000)
+blkeo.com##+js(acs, document.onkeydown)
+blkeo.com##+js(aeld, DOMContentLoaded, antiAdBlockerHandler)
+||unsplash.com^$domain=blkeo.com
+||w.org^$domain=blkeo.com
+||ads93.ru^$domain=blkeo.com
