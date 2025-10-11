@@ -82,15 +82,16 @@ aoyco.in##+js(set, window.focus, falseFunc)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=aoyco.in
 
 !STARLAVINIA
-starlavinia.name.tr##+js(aopr, window.outerWidth)
-starlavinia.name.tr##[class*="col-span"]:has(#openClaimModal):style(grid-column: span 12 / span 12 !important)
-starlavinia.name.tr##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
-starlavinia.name.tr##+js(aopr, detectedAdblock)
-starlavinia.name.tr##+js(nowoif, , obj)
-starlavinia.name.tr##+js(set, window.closed, false)
-starlavinia.name.tr##+js(set, window.focus, falseFunc)
-||starlavinia.name.tr/dist/js/global.js$script,1p
-$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=starlavinia.name.tr
+starlavinia.com##+js(aopr, window.outerWidth)
+starlavinia.com##[class*="col-span"]:has(#openClaimModal):style(grid-column: span 12 / span 12 !important)
+starlavinia.com##+js(aeld, /contextmenu|keydown|visibilitychange|resize|focus|blur/)
+starlavinia.com##+js(aopr, detectedAdblock)
+starlavinia.com##+js(nowoif, , obj)
+starlavinia.com##+js(set, window.closed, false)
+starlavinia.com##+js(set, window.focus, falseFunc)
+starlavinia.com##+js(no-fetch-if, bmcdn6, , '{"type": "opaque"}')
+||starlavinia.com/dist/js/global.js$script,1p
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=starlavinia.com
 
 !CRYPTOFUTURE.CO.IN
 !https://github.com/Suurp/FiltersUBO/issues/13
