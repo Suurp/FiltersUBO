@@ -111,3 +111,7 @@ onlyfaucet.com##+js(rpnt, script, img.complete && img.naturalWidth !== 0, true)
 onlyfaucet.com##+js(rpnt, script, let currentNonce = null;, let currentNonce = null; loadCaptcha();)
 onlyfaucet.com##+js(rpnt, script, feedback.classList.remove("error");, feedback.classList.remove("error"); const claimButton = document.getElementById("subbutt"); claimButton.click())
 onlyfaucet.com##+js(no-xhr-if, adsbygoogle.js)
+
+!FC-LC
+fc-lc.*##+js(rpnt, script, !dwellOK || !scoreOK, false)
+fc-lc.*##+js(rpnt, script, MIN_DWELL_MS = 8000, MIN_DWELL_MS = 0)
