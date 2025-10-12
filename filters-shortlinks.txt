@@ -292,6 +292,6 @@ blkeo.com##+js(aeld, DOMContentLoaded, antiAdBlockerHandler)
 !LINKREX
 autodime.com,cryptorex.net###fexkominhidden2, #myDIV:style(display: block !important)
 autodime.com,cryptorex.net##+js(nano-sib, counter, 1000, 0.02)
-autodime.com,cryptorex.net##h1, hr, h4, ul, p.c4, blockquote, .sharedaddy, p, [id*="revbid-leaderboard"], [id*="revbid-mobile"]
+autodime.com,cryptorex.net##h1, h2, h3, h4, hr, ul, table, ol, p.c4, blockquote, .sharedaddy, p, [id*="revbid-leaderboard"], [id*="revbid-mobile"]
 xut.io##.MuiTypography-body1
 xut.io##+js(set, blurred, false)
