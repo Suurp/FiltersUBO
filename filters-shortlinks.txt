@@ -297,6 +297,10 @@ xut.io##.MuiTypography-body1
 xut.io##+js(set, blurred, false)
 
 !REVLINK
+toaplat.online##+js(rpnt, script, /const currentIp\s*=\s*"([^"]+)";/, const currentIp = null;)
+toaplat.online##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { function clickBtn() { const btn = document.querySelector("#delete-session-btn"); if (btn) { btn.click(); console.log("Botón clickeado"); return true; } return false; } if (!clickBtn()) { new MutationObserver((_\, obs) => { if (clickBtn()) obs.disconnect(); }).observe(document.body\, { childList: true\, subtree: true }); } })();'></img>)
+toaplat.online##+js(no-fetch-if, /lookup.test|ipify.org/)
+
 yolasblog.online###verify-button-container, .inline-timer-manager:others()
 yolasblog.online##.inline-timer-manager:style(display: block !important)
 yolasblog.online##+js(set, document.hidden,  true)
