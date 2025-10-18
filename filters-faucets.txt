@@ -128,3 +128,39 @@ claimtrx.com##+js(set, document.hasFocus, trueFunc)
 claimtrx.com##+js(rpnt, script, let url, let bypass)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=claimtrx.com
 
+!FIREFAUCET
+firefaucet.win###sad-1, .row.center:has([class*="advert-code"])
+firefaucet.win##+js(nano-sib, refresher, *, 0.02)
+firefaucet.win###captcha-box > #description:style(display: block !important)
+firefaucet.win##+js(set, document.hasFocus, trueFunc)
+firefaucet.win###submit-button:watch-attr(onclick):remove-attr(onclick)
+firefaucet.win##+js(nano-sib, timer_complete, 1000, 0.02)
+firefaucet.win##+js(set, document.hasFocus, trueFunc)
+firefaucet.win##+js(rpnt, script, isRedirectEnabled && data.redirect, false)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=firefaucet.win
+
+!SATOSHIFAUCET
+satoshifaucet.io##+js(noeval-if, /chp_?ad/)
+satoshifaucet.io##.ads, div:has(#banner-container), ins
+satoshifaucet.io##+js(aeld, DOMContentLoaded, modal)
+satoshifaucet.io##.row:has([action*="/faucet/verify"]), .row:has(#minute):style(justify-content: center;)
+satoshifaucet.io##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; let clickedCaptcha = false; let clickedSubmit = false; let skipForever = false; const shouldSkip = () => { if (skipForever) return true; const swalTitle = document.querySelector(".swal2-title"); if (swalTitle && /failed/i.test(swalTitle.textContent)) { skipForever = true; return true; } const swalContent = document.querySelector(".swal2-content"); if (swalContent && swalContent.textContent.trim() === "Shortlink must be completed to continue again") { skipForever = true; return true; } return false; }; const checkCaptcha = () => { if (shouldSkip()) return; if (clickedCaptcha) return; const promptElement = document.querySelector(".captcha-prompt"); if (!promptElement) return; const prompCaptcha = promptElement.textContent.split(":")[1].trim().toLowerCase(); const icon = Array.from(document.querySelectorAll(".captcha-item")).find(icon => icon.getAttribute("data-icon").split(".")[0].toLowerCase() === prompCaptcha ); if (icon) { clickedCaptcha = true; setTimeout(() => { icon.click(); }\, 1000); } }; const checkVerification = () => { if (shouldSkip()) return; if (clickedSubmit) return; const validFeedback = document.querySelector(".captcha-feedback.valid"); if (validFeedback && validFeedback.textContent.includes("Verification successful!")) { const submitBtn = document.querySelector(".sl_btn"); if (submitBtn) { clickedSubmit = true; setTimeout(() => { submitBtn.click(); }\, 2000); } } }; const observer = new MutationObserver(() => { if (shouldSkip()) return; checkCaptcha(); checkVerification(); }); observer.observe(document.body\, { childList: true\, subtree: true }); })();'></img>)
+
+!BITFAUCET
+bitfaucet.net##+js(noeval-if, /chp_?ad/)
+bitfaucet.net##.ads, div:has(#banner-container), ins
+bitfaucet.net##+js(aeld, DOMContentLoaded, modal)
+bitfaucet.net##.row:has([action*="/faucet/verify"]), .row:has(#minute):style(justify-content: center;)
+bitfaucet.net##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { "use strict"; let clickedCaptcha = false; let clickedSubmit = false; let skipForever = false; const shouldSkip = () => { if (skipForever) return true; const swalTitle = document.querySelector(".swal2-title"); if (swalTitle && /failed/i.test(swalTitle.textContent)) { skipForever = true; return true; } const swalContent = document.querySelector(".swal2-content"); if (swalContent && swalContent.textContent.trim() === "Shortlink must be completed to continue again") { skipForever = true; return true; } return false; }; const checkCaptcha = () => { if (shouldSkip()) return; if (clickedCaptcha) return; const promptElement = document.querySelector(".captcha-prompt"); if (!promptElement) return; const prompCaptcha = promptElement.textContent.split(":")[1].trim().toLowerCase(); const icon = Array.from(document.querySelectorAll(".captcha-item")).find(icon => icon.getAttribute("data-icon").split(".")[0].toLowerCase() === prompCaptcha ); if (icon) { clickedCaptcha = true; setTimeout(() => { icon.click(); }\, 1000); } }; const checkVerification = () => { if (shouldSkip()) return; if (clickedSubmit) return; const validFeedback = document.querySelector(".captcha-feedback.valid"); if (validFeedback && validFeedback.textContent.includes("Verification successful!")) { const submitBtn = document.querySelector(".sl_btn"); if (submitBtn) { clickedSubmit = true; setTimeout(() => { submitBtn.click(); }\, 2000); } } }; const observer = new MutationObserver(() => { if (shouldSkip()) return; checkCaptcha(); checkVerification(); }); observer.observe(document.body\, { childList: true\, subtree: true }); })();'></img>)
+
+!FREELTC.FUN
+freeltc.fun##ins, div[style]:has(#banner-container)
+freeltc.fun##+js(no-fetch-if, surfe.pro/js/net.js, ,'{"type": "opaque"}'))
+freeltc.fun##+js(aeld, load, parentDiv)
+freeltc.fun##+js(rpnt, script, myWindow.closed == true, false, condition, closed)
+freeltc.fun##+js(rpnt, script, document.hasFocus(), false, condition, closed)
+freeltc.fun##+js(rpnt, script, typeof myWindow == 'undefined' || myWindow == null, false)
+freeltc.fun##+js(set, document.hasFocus, trueFunc)
+freeltc.fun##+js(set, document.hidden, true)
+freeltc.fun##+js(nowoif, , , obj)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=freeltc.fun

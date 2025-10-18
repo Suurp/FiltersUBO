@@ -311,3 +311,4 @@ revlink.pro##.text-left
 !OFFERWALL
 offerwall.me##[class*="floating-banner"]
 offerwall.me##+js(nano-sib, loadSL, 1000, 0.02)
+
