@@ -295,3 +295,11 @@ autodime.com,cryptorex.net##+js(nano-sib, counter, 1000, 0.02)
 autodime.com,cryptorex.net##h1, h2, h3, h4, hr, ul, table, ol, p.c4, blockquote, .sharedaddy, p, [id*="revbid-leaderboard"], [id*="revbid-mobile"]
 xut.io##.MuiTypography-body1
 xut.io##+js(set, blurred, false)
+
+!REVLINK
+yolasblog.online###verify-button-container, .inline-timer-manager:others()
+yolasblog.online##.inline-timer-manager:style(display: block !important)
+yolasblog.online##+js(set, document.hidden,  true)
+yolasblog.online##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { const island = document.querySelector("astro-island"); if (!island) return; const props = island.getAttribute("props"); if (!props) return; const decoded = props.replace(/&quot;/g\, "\""); const data = JSON.parse(decoded); const url = data.session?.[1]?.finalDestination?.[1]; if (url) window.location.href = url; })();'></img>)
+
+revlink.pro##.text-left
