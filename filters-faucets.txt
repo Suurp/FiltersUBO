@@ -177,3 +177,14 @@ offerwall.me##+js(nano-stb, showadbar, 2000, 0.20)
 offerwall.me##+js(set, window.closed, falseFunc)
 offerwall.me##+js(nano-sib, loadSL, 1000, 0.02)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=offerwall.me
+
+!CLAIMCRYPTO
+claimcrypto.cc##ins
+claimcrypto.cc##+js(set, window.closed, false)
+claimcrypto.cc##+js(set, window.focus, falseFunc)
+claimcrypto.cc##+js(set, document.hasFocus, trueFunc)
+claimcrypto.cc##+js(rpnt, script, window.open(ad_url, window.open(null)
+claimcrypto.cc##+js(rpnt, script, document.hasFocus(), false, condition, .view_ads_click)
+claimcrypto.cc##+js(window-close-if, /sview/)
+claimcrypto.cc###clickOnceLink:remove-attr(href)
+$3p,frame,denyallow=cloudflare.com|bitcotasks.com|offerwall.me,redirect=noopframe,domain=claimcrypto.cc
