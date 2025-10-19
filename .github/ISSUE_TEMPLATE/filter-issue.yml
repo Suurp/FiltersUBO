@@ -1,163 +1,112 @@
 name: Filter Issue
-description: Report issues with existing filters, request new filters, or report sites not working properly.
+description: Report filter problems, request new filters, or report broken site functionality.
 body:
   - type: markdown
     attributes:
       value: |
-        To avoid burdening **MAINTAINERS** with invalid or duplicate reports, disregarding these steps **WILL** result in your issue being closed immediately.
+        **Quick checklist before submitting:**
+        - ✅ Only uBlock Origin enabled
+        - ✅ Filter lists updated (🛡️ icon > 🔄 button)
+        - ✅ Tested in incognito/private mode
+        - ✅ No duplicate issue exists
         
-        > [!IMPORTANT]
-        > #### Before reporting, verify:
-        > - The issue persists with **only uBlock Origin enabled**
-        > - You have updated all filter lists (🛡️ uBO icon > 🔄 Update button)
-        > - There is no similar issue already reported
+        <details>
+        <summary>💡 Common Solutions (click to expand)</summary>
+        
+        **Before reporting, try these:**
+        1. **Clear browser cache** - Sometimes old cached content causes issues
+        2. **Disable cosmetic filtering** - Click uBO icon > 👁️ eye icon to test
+        3. **Check if it's a regional issue** - Some ads only appear in specific countries
+        4. **Try a hard refresh** - Press `Ctrl+F5` (Windows) or `Cmd+Shift+R` (Mac)
+        5. **Check the element with inspect** - Right-click element > Inspect to see its class/id
+        
+        </details>
         
   - type: checkboxes
     attributes:
       label: Prerequisites
-      description: |
-        **IMPORTANT:** Answer carefully and truthfully.
       options:
-        - label: I have read the [repository documentation](https://github.com/Suurp/uBlock-CustomFilters/blob/main/README.md) and understand the purpose of these filters.
+        - label: I searched for similar issues and found none
           required: true
-        - label: I have verified that this issue is not a duplicate using the [issue search](https://github.com/Suurp/uBlock-CustomFilters/issues).
+        - label: I tested with ONLY uBlock Origin enabled
           required: true
-        - label: I have tested with **only uBlock Origin enabled** (all other extensions disabled).
+        - label: I updated all filter lists (🔄 button)
           required: true
-        - label: I have updated all filter lists by clicking the 🔄 update button in uBlock Origin's dashboard.
+        - label: I tested in incognito/private mode
           required: true
-        - label: I have verified that the issue persists in **incognito/private mode**.
-          required: true
-        - label: I have verified that I have the **latest version** of uBlock Origin installed.
-          required: true
-        - label: If reporting a filter breaking a site, I have verified that the issue disappears when disabling filters from this repository.
-          required: true
-        - label: I have updated my browser to the latest available version.
-          required: true
-        - label: I did NOT answer truthfully to **ALL** the above checkboxes.
+        - label: I did NOT complete all the above steps
           required: false
           
   - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
-      description: Select the type of issue you are reporting
       options:
-        - "🚫 Element not blocked (ad, popup, banner)"
+        - "🚫 Element not blocked (ad, popup, banner, etc.)"
         - "💔 Filter breaks site functionality"
         - "🔧 Improvement to existing filter"
         - "✨ New filter request"
-        - "🐛 Other issue"
+        - "🐛 Other"
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: URL(s) where the issue occurs
-      description: |
-        At least one URL is **MANDATORY** for issues affecting web pages.
-        Mark with **"NSFW"** where applicable.
+      label: 🌐 URL(s)
+      description: Where does the issue occur? (At least one URL required)
       placeholder: |
-        https://example.com
-        https://example.org/page
-        https://example.net/specific
+        https://example.com/page-with-issue
+        https://subdomain.example.com/another-page
+        
+        Note: Mark as NSFW if applicable
       render: yaml
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Description of the Issue
-      description: |
-        Provide a clear and concise description of the issue.
-        - What is happening?
-        - What should happen?
-        - When did the issue start?
+      label: 📝 Description
+      description: Be specific - this helps us fix the issue faster
       placeholder: |
-        Example: The floating banner at the bottom of example.com is not blocked by current filters.
-        It should be completely blocked without affecting the page content.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Relevant Filter (if applicable)
-      description: |
-        If the issue is with a specific existing filter in this repository, paste it here.
-        Indicate the file and line number if possible.
-      placeholder: |
-        File: filters.txt, line 123
-        Filter: example.com##.floating-ad
-      render: text
-    validations:
-      required: false
-
-  - type: textarea
-    attributes:
-      label: Browser Name and Version
-      description: Provide the exact name and version of your browser.
-      placeholder: |
-        Example: 
-        - Firefox 120.0
-        - Chrome 119.0.6045.199
-        - Edge 119.0.2151.72
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: uBlock Origin Version
-      description: |
-        Find the version at: uBO icon > ⚙️ > "About" tab
-      placeholder: |
-        Example: 1.54.0
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Other Extensions Installed
-      description: |
-        List other extensions you have installed (write _none_ if there are no others).
-        This information helps investigate potential conflicts.
-      placeholder: |
-        - Privacy Badger
-        - Dark Reader
-        - none
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Country/Region
-      description: | 
-        Not required, but some sites or issues are only accessible or reproducible from specific countries.
-        If you think your issue is of this type, indicate which country you are accessing from.
-      placeholder: |
-        Example: United States, Spain, Mexico, etc.
-        Or write: _Not relevant_
-    validations:
-      required: false
-
-  - type: textarea
-    attributes:
-      label: Screenshots
-      description: |
-        Screenshots are **MANDATORY**.
-        🔴 Post **LINKS** instead of inline images for screenshots containing **ADULT MATERIAL**. 🔴
+        What's wrong:
+        A floating video ad appears in the bottom-right corner after 5 seconds on every page.
         
-        💡 Tip: Include screenshots showing:
-        - The problematic element (with developer console open if possible)
-        - The uBlock Origin panel showing active filters
+        What should happen:
+        The ad should be blocked without breaking the video player or page layout.
+        
+        When it started:
+        Started appearing around October 15, 2025.
+        
+        Element details (if you inspected it):
+        <div class="sticky-ad-container" id="bottom-ad">
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🖥️ System Information
+      description: Browser and uBlock Origin versions
+      placeholder: |
+        Browser: Firefox 120.0 / Chrome 119.0.6045.199 / Edge 119.0.2151.72
+        uBlock Origin: 1.54.0
+        OS: Windows 11 / macOS Sonoma / Ubuntu 22.04 (optional)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 📸 Screenshots
+      description: |
+        **Required** - Visual proof helps tremendously
+        💡 Include: the issue + uBO panel showing active filters
+        🔴 NSFW content: post links, not inline images
       value: |
         <details>
         <summary>Screenshots</summary>
 
-        <!-- Drag-and-drop screenshots here -->
-        <!-- ⬇️  ⬇️  ⬇️ -->
+        <!-- Drag and drop images here -->
+        <!-- Show: 1) The problematic element, 2) uBO panel if possible -->
 
-
-        <!-- ⬆️  ⬆️  ⬆️ -->
 
         </details>
     validations:
@@ -165,41 +114,32 @@ body:
 
   - type: textarea
     attributes:
-      label: Troubleshooting Information
+      label: 🔧 Troubleshooting Information
       description: |
-        On the page where the issue occurs:
-        1. 🛡️ Click on the uBlock Origin icon
-        2. 💬 Click on the "Report" button (chat icon)
-        3. Scroll to the bottom
-        4. Click on "Troubleshooting Information"
-        5. Copy and paste the information here
-        
-        If you cannot obtain this information, at least indicate:
-        - Active filter lists in uBlock Origin
-        - Whether you have additional custom filters
+        **How to get it:** Page with issue > 🛡️ uBO icon > 💬 Report > Scroll down > "Troubleshooting Information"
       value: |
         <details>
-        <summary>Configuration Details</summary>
+        <summary>Troubleshooting Information</summary>
 
-        <!-- ⬇️ Paste troubleshooting information here ⬇️ -->
         ```yaml
-
-
+        # Paste troubleshooting info here
+        
+        
         ```
-        </details>    
+        </details>
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
-      label: Additional Information
-      description: |
-        Any other details that may be useful:
-        - Does the issue only occur on certain devices?
-        - Is there any temporal pattern? (only certain days/times)
-        - Have you tried any temporary solutions?
+      label: ℹ️ Additional Context
+      description: Anything else that might help
       placeholder: |
-        The issue only occurs after logging into the site.
-        I tried adding the filter example.com##.new-banner but it doesn't work.
+        Examples:
+        - Only happens when logged in
+        - Only appears in Spain/Mexico/etc.
+        - Started after site redesign
+        - Other extensions installed: Privacy Badger, Dark Reader
+        - Tried filter: example.com##.ad-container (didn't work)
     validations:
       required: false
