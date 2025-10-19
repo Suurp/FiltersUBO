@@ -307,4 +307,3 @@ yolasblog.online##+js(set, document.hidden,  true)
 yolasblog.online##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { const island = document.querySelector("astro-island"); if (!island) return; const props = island.getAttribute("props"); if (!props) return; const decoded = props.replace(/&quot;/g\, "\""); const data = JSON.parse(decoded); const url = data.session?.[1]?.finalDestination?.[1]; if (url) window.location.href = url; })();'></img>)
 
 revlink.pro##.text-left
-
