@@ -84,20 +84,9 @@ body:
 
   - type: textarea
     attributes:
-      label: 🖥️ System Information
-      description: Browser and uBlock Origin versions
-      placeholder: |
-        Browser: Firefox 120.0 / Chrome 119.0.6045.199 / Edge 119.0.2151.72
-        uBlock Origin: 1.54.0
-        OS: Windows 11 / macOS Sonoma / Ubuntu 22.04 (optional)
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
       label: 📸 Screenshots
       description: |
-        **Required** - Visual proof helps tremendously
+        Visual proof helps tremendously
         💡 Include: the issue + uBO panel showing active filters
         🔴 NSFW content: post links, not inline images
       value: |
@@ -110,7 +99,7 @@ body:
 
         </details>
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
