@@ -164,3 +164,16 @@ freeltc.fun##+js(set, document.hasFocus, trueFunc)
 freeltc.fun##+js(set, document.hidden, true)
 freeltc.fun##+js(nowoif, , , obj)
 $3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=freeltc.fun
+
+!OFFERWALL
+offerwall.me##[class*="floating-banner"]
+offerwall.me##+js(noeval-if, /chp_?ad/)
+offerwall.me##+js(nostif, window.location.replace, 1200)
+offerwall.me##+js(rpnt, script, /window.open.*blank"\);/gm, true, condition, newTab)
+offerwall.me##+js(set, window_focus, true)
+offerwall.me##+js(rpnt, script, !window_focus, true)
+offerwall.me##+js(set, window_paused, false)
+offerwall.me##+js(nano-stb, showadbar, 2000, 0.20)
+offerwall.me##+js(set, window.closed, falseFunc)
+offerwall.me##+js(nano-sib, loadSL, 1000, 0.02)
+$3p,frame,denyallow=cloudflare.com,redirect=noopframe,domain=offerwall.me
