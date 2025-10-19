@@ -307,3 +307,21 @@ yolasblog.online##+js(set, document.hidden,  true)
 yolasblog.online##+js(trusted-create-html, div, <img src='/n5dev.png' onerror='(function() { const island = document.querySelector("astro-island"); if (!island) return; const props = island.getAttribute("props"); if (!props) return; const decoded = props.replace(/&quot;/g\, "\""); const data = JSON.parse(decoded); const url = data.session?.[1]?.finalDestination?.[1]; if (url) window.location.href = url; })();'></img>)
 
 revlink.pro##.text-left
+
+!CLIK
+uii-links.uno##+js(no-fetch-if, bmcdn6, , '{"type": "opaque"}')
+uii-links.uno##+js(nano-sib, tick, 1000, 0.02)
+uii-links.uno###btnConfirm, #capMsg, #btnContinue, .form-group.text-center:others()
+uii-links.uno###capWrap:remove-class(hidden)
+$popup,domain=uii-links.uno
+
+virtuous-tech.net##.container-fluid.row
+virtuous-tech.net##.captcha-container > div:style(display: block !important;)
+virtuous-tech.net##+js(nano-sib, document.hidden, *, 0.20)
+virtuous-tech.net##+js(nano-stb, , *, 0.002)
+virtuous-tech.net##+js(trusted-replace-argument, document.querySelectorAll, 0, json:"body", condition, .placed-ad *)
+virtuous-tech.net##+js(nano-sib, document.hidden, *, 0.20)
+virtuous-tech.net##+js(set, document.hidden, true)
+||admight.net
+||moonboom.net
+||about:$popup,domain=virtuous-tech.net
