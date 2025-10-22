@@ -326,3 +326,13 @@ virtuous-tech.net##+js(set, document.hidden, true)
 ||admight.net
 ||moonboom.net
 ||about:$popup,domain=virtuous-tech.net
+
+!AROLINKS
+upexamresult.in,naukaritimes24.in,udarunachal.in###stick, [id^="btn"], #cross-snp2:others()
+upexamresult.in,naukaritimes24.in,udarunachal.in###stick, [id^="btn"], #cross-snp2:style(display: block !important)
+upexamresult.in,naukaritimes24.in,udarunachal.in##+js(rpnt, script, "'IFRAME'", "'BODY'")
+upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-sib, timer, *, 0.02)
+upexamresult.in,naukaritimes24.in,udarunachal.in##+js(nano-stb, , *, 0.02)
+upexamresult.in,naukaritimes24.in,udarunachal.in##+js(cookie-remover, iotes)
+upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, #btn7, , 1000)
+upexamresult.in,naukaritimes24.in,udarunachal.in##+js(trusted-click-element, #cross-snp2, , 1000)
