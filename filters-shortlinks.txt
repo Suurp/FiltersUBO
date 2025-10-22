@@ -192,7 +192,7 @@ liln.fun,wii.si,bitwidgets.net,uiio.fun,newsminer.uno,adwyn.uno##+js(nowoif, , o
 coinclix.co##+js(nostif, , /1000|500/)
 coinclix.co##.row:has([id*="ad-tp"]), .card:has([id*="ad-bt"])
 
-coinhub.wiki,vitalityvista.net,geekgrove.net###linkResFooter, #linkResHeader, #linkResult, #captcha_modal_body, iframe[src*="acceptable.a-ads.com"], img[src*="/assets/images"], [src*="newassets.hcaptcha.com/captcha/"], img[src*="hilltopads.com"], img[src*="adskeeper.com"] ,[src*="/recaptcha/"]:others()
+coinhub.wiki,vitalityvista.net,geekgrove.net###linkResFooter, #linkResHeader, #linkResult, #captcha_modal_body, iframe[src*="acceptable.a-ads.com"], img[src*="/assets/images"], [src*="newassets.hcaptcha.com/captcha/"], img[src*="hilltopads.com"], img[src*="adskeeper.com"] ,[src*="/recaptcha/"], #ct_modal:others()
 coinhub.wiki,vitalityvista.net,geekgrove.net##.flex-grow-1:style(flex-grow: 0 !important)
 coinhub.wiki,vitalityvista.net,geekgrove.net##iframe[src*="acceptable.a-ads.com"]:style(height: 1px !important)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(aeld, keydown, ctrlKey)
@@ -201,7 +201,7 @@ coinhub.wiki,vitalityvista.net,geekgrove.net##+js(trusted-set, document.activeEl
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, document.hasFocus, falseFunc)
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(set, window.google_tag_manager, {})
 coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nowoif)
-coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nostif, revbid, 2000)
+coinhub.wiki,vitalityvista.net,geekgrove.net##+js(nostif, onerror)
 ||/assets/images$image,redirect=32x32.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||a-ads.com^$frame,redirect-rule=noopframe,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
 ||adskeeper.com^$image,redirect-rule=2x2.png,domain=geekgrove.net|vitalityvista.net|coinhub.wiki
